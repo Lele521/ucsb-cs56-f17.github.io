@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: lab04
-ready: true
+ready: false
 desc: "Intro to GUIs, Graphics"
-assigned: 2016-10-20 16:00:00.00-7
-due: 2016-10-29 12:00:00.00-7
+assigned: 2017-10-20 14:00:00.00-7
+due: 2017-10-29 12:00:00.00-7
 root_repo: https://github.com/UCSB-CS56-F16/F16-lab04
 repo_base_name: F16-lab04
 fork_tree_img: cs56-m16-lab06-fork-tree.png

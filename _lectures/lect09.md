@@ -2,7 +2,7 @@
 num: "Lecture 9"
 desc: "More on Tokens, FSA"
 ready: false
-date: 2016-10-26 12:30:00.00-7:00
+date: 2017-10-26 12:30:00.00-7:00
 ---
 
 # More on Tokens and Finite State Automata

@@ -2,7 +2,7 @@
 num: "Lecture 2"
 desc: "Continuation of introduction to git/github and Java basics"
 ready: false
-date: 2016-09-28 12:30:00.00-7:00
+date: 2017-09-28 12:30:00.00-7:00
 ---
 
 

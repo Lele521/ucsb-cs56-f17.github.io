@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: lab02
-ready: true
+ready: false
 desc: "Polynomials"
-assigned: 2016-10-06 16:00:00.00-7
-due: 2016-10-12 23:59:00.00-7
+assigned: 2017-10-06 14:00:00.00-7
+due: 2017-10-12 23:59:00.00-7
 submit_cs_link: "https://submit.cs.ucsb.edu/form/project/555/submission"
 github_org: UCSB-CS56-F16
 ---

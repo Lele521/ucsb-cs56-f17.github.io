@@ -1,8 +1,8 @@
 ---
 num: "Lecture 3"
 desc: "More on git/github and Java basics"
-ready: true
-date: 2016-10-03 12:30:00.00-7:00
+ready: false
+date: 2017-10-03 12:30:00.00-7:00
 ---
 
 # If you have notes from this lecture

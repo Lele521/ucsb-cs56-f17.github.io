@@ -1,8 +1,8 @@
 ---
 num: "Lecture 13"
 desc: "Information about lab05 deadline, and legacy code progress"
-ready: true
-date: 2016-11-09 12:30:00.00-7:00
+ready: false
+date: 2017-11-09 12:30:00.00-7:00
 ---
 
 # Information about lab05 deadline, and legacy code progress

@@ -1,8 +1,8 @@
 ---
 num: "Lecture 6"
 desc: "Legacy code, and preparation for lab03"
-ready: true
-date: 2016-10-12 12:30:00.00-7:00
+ready: false
+date: 2017-10-12 12:30:00.00-7:00
 ---
 
 In this lecture we went over the procedures for [lab03](/labs/lab03/), our first look at legacy code.

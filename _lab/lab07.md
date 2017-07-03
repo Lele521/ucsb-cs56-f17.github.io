@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: lab07
-ready: true
+ready: false
 desc: "Finishing up your legacy code project"
-assigned: 2016-11-09 17:01:00.00-8
-due: 2016-11-20 23:59:00.00-8
+assigned: 2017-11-09 14:00:00.00-8
+due: 2017-11-20 23:59:00.00-8
 ---
 
 

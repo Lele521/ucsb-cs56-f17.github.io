@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: lab08
-ready: true
+ready: false
 desc: "Continue work on legacy code, perhaps try web programming"
-assigned: 2016-11-17 16:00:00.00-8
-due: 2016-11-17 19:00:00.00-8
+assigned: 2017-11-17 14:00:00.00-8
+due: 2017-11-17 19:00:00.00-8
 ---
 
 THERE IS NOTHING TO SUBMIT FOR THIS LAB.

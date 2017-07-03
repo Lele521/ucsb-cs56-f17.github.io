@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: lab09
-ready: true
+ready: false
 desc: "Wrapping up your legacy code project (leaving a legacy)"
-assigned: 2016-11-17 16:00:00.00-8
-due: 2016-12-01 19:00:00.00-8
+assigned: 2017-11-17 14:00:00.00-8
+due: 2017-12-01 19:00:00.00-8
 ---
 
 This lab counts 300 points towards your lab grade.

@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: lab01
-ready: true
+ready: false
 desc: "Tools for java development"
-assigned: 2016-09-29 16:00:00.00-7
-due: 2016-10-05 23:59:00.00-7
+assigned: 2017-09-29 14:00:00.00-7
+due: 2017-10-05 23:59:00.00-7
 submit_cs: https://submit.cs.ucsb.edu/form/project/550/submission
 ---
 

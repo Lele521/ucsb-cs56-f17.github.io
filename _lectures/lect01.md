@@ -2,7 +2,7 @@
 num: "Lecture 1"
 desc: "Orientation to the course"
 ready: false
-date: 2016-09-26 12:30:00.00-7:00
+date: 2017-09-26 12:30:00.00-7:00
 ---
 
 This lecture was mostly an orientation to what the course is about.

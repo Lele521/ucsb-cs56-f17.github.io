@@ -2,7 +2,7 @@
 num: "Lecture 5"
 desc: "hashCode(), java.util.HashTable"
 ready: false
-date: 2016-10-10 12:30:00.00-7:00
+date: 2017-10-10 12:30:00.00-7:00
 ---
 
 The code we discussed today can be found in this repository.  Students are encouraged to look through the source code,
