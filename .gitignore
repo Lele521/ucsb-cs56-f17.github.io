@@ -1,0 +1,8 @@
+*.class
+
+*~
+vendor/
+_site/
+.sass-cache/
+.jekyll-metadata
+.bundle
