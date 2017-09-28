@@ -4,7 +4,7 @@ num: lab00
 ready: false
 desc: "Getting Started"
 assigned: 2017-09-29 09:30:00.00-7
-due: 2017-09-29 21:00:00.00-7
+due: 2017-10-05 23:59:00.00-7
 ---
 
 
@@ -13,9 +13,14 @@ If you find typos or problems with the lab instructions, please report them on P
 Step 0: Getting oriented
 ========================
 
-Chances are you are already familiar with all of the following because you already took CS courses that used this stuff (i.e. CS8, CS16, CS24, CS32).
+Chances are you are already familiar with all of the following 
+because you already took CS courses that used this stuff (i.e. CS8, CS16, CS24, CS32).
 
-If not--if for example, you are a transfer student and this is your first CS course using the CSIL Lab resources, please let your TA know and he/she will help you find resources to come up to speed on these things. Or, your TA can assign you a pair partner that knows this stuff and doesn't mind helping you come up to speed.
+If not--if for example, you are a transfer student and this is your first 
+CS course using the CSIL Lab resources, please let your TA know and he/she 
+will help you find resources to come up to speed on these things. Or, your 
+TA can assign you a pair partner that knows this stuff and doesn't mind 
+helping you come up to speed.
 
 -   knowing your College of Engineering/CSIL computer account username/password--and having an active working account.
 -   knowing how to login to the systems in Phelps 3525 and the CSIL lab, and bring up both a web browser, and a terminal window.
@@ -41,7 +46,9 @@ Here is an overview of the remaining steps in the lab:
 
 0. If you didn't already do it:
     - Create a github.com account
-    - Fill out the form at <http://bit.ly/cs56-f16-survey>
+    - Make sure your `umail.ucsb.edu` email address is 
+       registered as one of the emails associated with your github.com account.
+    - Register your account using the web app at: <https://ucsb-cs56-f17-signup.herokuapp.com>
 1. Visit <https://github.ucsb.edu> and login with your CSIL account, to establish your github.ucsb.edu account.
 
 2. Login to your CSIL account, and create a ~/cs56 subdirectory.
@@ -70,7 +77,7 @@ public class HelloWorld {
 
 6. Navigate to `submit.cs.ucsb.edu`.   
 
-7. Join the class CS56_f16 
+7. Join the class {{site.submit_cs_course}} 
 
 8. The next step is to submit your work to submit.cs for grading.  The way
    you do that depends on whether you are working on one of the CSIL machines,
