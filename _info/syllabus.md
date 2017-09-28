@@ -1,20 +1,18 @@
 ---
-title: "Syllabus, CMPSC 56, Fall 2016"
+title: "Syllabus, CMPSC 56, Fall 2017"
 layout: handout
 ready: false
 ---
 
-
-CS56, Fall 2016, Syllabus
-===========================
+<div style="font-size:110%;" markdown="1">
 
 Basic Facts
 -----------
 
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad)
-* **Lecture**: MW 12:30pm-1:45pm HSSB 1174, ATTENDANCE REQUIRED.
-* **TAs**:  Nick Brown, Michael Zhang (contact via Piazza)
-* **Lab** (50 minute discussion section) Thursday 4pm, 5pm or 6pm, Phelps 3525, ATTENDANCE REQUIRED.                                         
+* **Lecture**: TR 09:30pm-10:45pm BUCHN 1930, ATTENDANCE REQUIRED.
+* **TAs**: {{site.ta_list_full}} (contact via Piazza)
+* **Lab** (50 minute discussion section) Thursday {{site.discussion_section_times}}, Phelps 3525, ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
 For course website links, visit the course Gauchospace site.
@@ -41,7 +39,7 @@ Note that "sharing code" doesn't mean "stealing code". We still don't take credi
 
 The official course description is here:
 
-<div style="background-color:#eee; border: 8px inset #333; font-size:75%; margin:1em; width:45em; padding: 0.5em;" markdown="1">
+<div style="background-color:#eee; border: 8px inset #333; font-size:90%; margin:1em; width:50em; padding: 0.5em;" markdown="1">
 
 CMPSC 56. Advanced Applications Programming
 (4) STAFF
@@ -50,6 +48,8 @@ Prerequisite: Computer Science 24 and 32 with a grade of C or better
 Advanced application programming using a high-level, virtual-machine-based language. Topics include generic programming, exception handling, programming language implementation; automatic memory management, and application development, management, and maintenance tools; event handling, concurrency and threading, and advanced library use.
 
 </div>
+
+<div style="page-break-before: always; font-size:100%;" markdown="1">
 
 Final Course Grades
 ===================
@@ -70,19 +70,44 @@ A+ grades: These may be awarded to the very best performing students in the clas
 
 | Grade Item                                                                   | Percentage of Final Grade |
 |------------------------------------------------------------------------------|---------------------------|
-| Midterm 1                                                                    | 20 %                      |
-| Midterm 2                                                                    | 20 %                      |
-| Final                                                                        | 20 %                      |
-| Labs (typically closed source, some open source), Hwks, In Class Assignments | 20 %                      |
-| Projects (open source)                                                       | 20 %                      |
+| Midterm 1 | 20 % |
+| Midterm 2 | 20 % |
+| Final | 20 % |
+| Hwks, In Class Assignments | 10 % |
+| Labs (typically closed source, some open source) | 10 % |
+| Projects (open source) | 20 % |
+
+Missing homework/in-class activities: Drop the lowest 4
+-------------------------------------------------------
+
+If you miss a class, you miss the opportunity for the points on that
+in-class assignment, or homework that was due. Period.
+
+There is no makeup. In lieu of providing a makeup opportunity, I will
+drop the lowest 4 homework/in-class-assignment grades (which may be
+zeros if you miss an assignment.) Each homework and in-class-activity
+will be of equal value (100 pts).
+
+
+Notes sheets on exams
+---------------------
+
+-   You are permitted one 8.5 x 11 (standard US letter size paper) sheet of notes for each exam.
+-   You are permitted only one sheet per exam.
+-   Your notes sheet will be collected and WILL NOT BE RETURNED
+-   So, if you need a copy of it, make a copy BEFORE you come to the exam.
+
 
 More On Grading
 ---------------
 
 We'll have three exams--two midterms and a final. That part of the course will be traditional. And, there will be some traditional lab and homework assignments (and perhaps quizzes) where "everybody in the class does roughly the same thing"---those make up another 20% of your grade.
 
+Note that, at the discretion of the instructor, part of one of the midterms, and/or part of the final exam may a "lab final", i.e. a set of exercises done in the laboratory setting under exam conditions.   The division of points between written final the lab final will be at the discretion of the instructor, and announced later in the quarter.
+
 The remaining part of your grade--the last 20%--comes from project points which are explained in more detail later in this syllabus.
 
+</div>
 
 <div style="page-break-before:always;">
 &nbsp;
@@ -127,58 +152,57 @@ How to interpret these "due dates":
 &nbsp;
 </div>
 
-<div style="font-size: 120%;">
+<div style="font-size: 120%;" markdown="1">
+
+Late Labs
+---------
+
+The policy is simple, and is based on the idea that the primary
+purpose of the deadlines is to allow the TA manage his/her
+workload. The number of labs in this course requires that he/she not
+have to do "context switching" between grading different labs. All
+labs must be graded in one sitting, or he/she just won't be able to
+keep up with the workload.
+
+So:
+
+-   If you want your work to be graded without penalty, turn it in on time.
+-   If you turn in your lab late, you RISK GETTING A ZERO.
+-   We will grade late labs ONLY if it creates no extra inconvenience for the graders, and we WILL impose a penalty between 10-20% (see the individual grading rubrics for the labs.)
+-   There is NO GUARANTEE that late labs will be graded at all. The TA will simply start work at some point after the deadline, and grade until he/she is finished. At that time, he/she will "close the books" on that particular lab, and any work not submitted at that time will NOT be considered.
+
 
 Attendance
 ==========
 
 This course moves quickly. So attendance is very important.
 
-This is even more true in the summer.
-
 We'll be trying to master the material from about 14 chapters in the
-book, at about 2 chapters per week. We need to go at that pace,
+Head First Java book, and several chapters of the Head First Design Patterns book.   That's a pace of about 4 chapters per week. We need to go at that pace,
 because we'll lose a couple of weeks to exams, and the last few
 lectures the quarter, you can't really start anything new, because
 there isn't time to put it into practice with programming
-assignments. If you don't put it into practice, you aren't very likely
+assignments.    If you don't put it into practice, you aren't very likely
 to learn it in any way that is going to stick with you, so there isn't
 much point in just "going through the motions".
 
 As a result, there will be something you have to turn in at almost
-every class. In this way, attendance is taken, and required.
+every class, plus some times when you have to submit homeworks electronically
+through Gradescope.   In this way, attendance is taken, and required.
 
 These things you have to turn in will be a combination of in-class
 activities, and homework completed outside of class, but handed in on
 paper during class.
 
-Quizzes may occur at anytime, announced or unannounced. Missed quizzes
-may not be made up, except per the "personal day/sick day" below—if
-you miss a quiz for any reason, and have already used your personal
-day/sick day, you will have to make up the points with extra credit.
+In class activities may occur at anytime, announced or unannounced. Missed
+in-class activities  may not be made up, except by "dropping the lowest 4".
 
 Thus attendance is required, and reading the assigned readings is
 required.
 
-Missing homework/in-class activities: Drop the lowest 3
--------------------------------------------------------
+</div>
 
-If you miss a class, you miss the opportunity for the points on that
-in-class assignment, or homework that was due. Period.
-
-There is no makeup. In lieu of providing a makeup opportunity, I will
-drop the lowest 3 homework/in-class-assignment grades (which may be
-zeros if you miss an assignment.) Each homework and in-class-activity
-will be of equal value (100 pts).
-
-Notes sheets on exams
----------------------
-
--   You are permitted one 8.5 x 11 (standard US letter size paper) sheet of notes for each exam.
--   You are permitted only one sheet per exam.
--   Your notes sheet will be collected and WILL NOT BE RETURNED
--   So, if you need a copy of it, make a copy BEFORE you come to the exam.
-
+<div style="page-break-before: always; font-size:120%;" markdown="1">
 
 Questions about grades
 ----------------------
@@ -231,22 +255,6 @@ long line of students), then you lose the right to appeal your grade.
 
 <div style="font-size: 120%;">
 
-Late Labs
----------
-
-The policy is simple, and is based on the idea that the primary
-purpose of the deadlines is to allow the TA manage his/her
-workload. The number of labs in this course requires that he/she not
-have to do "context switching" between grading different labs. All
-labs must be graded in one sitting, or he/she just won't be able to
-keep up with the workload.
-
-So:
-
--   If you want your work to be graded without penalty, turn it in on time.
--   If you turn in your lab late, you RISK GETTING A ZERO.
--   We will grade late labs ONLY if it creates no extra inconvenience for the graders, and we WILL impose a penalty between 10-20% (see the individual grading rubrics for the labs.)
--   There is NO GUARANTEE that late labs will be graded at all. The TA will simply start work at some point after the deadline, and grade until he/she is finished. At that time, he/she will "close the books" on that particular lab, and any work not submitted at that time will NOT be considered.
 
 Accommodations for disabilities
 -------------------------------
