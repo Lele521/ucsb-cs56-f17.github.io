@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab01
-ready: false
+ready: true
 desc: "Tools for java development"
 assigned: 2017-09-29 14:00:00.00-7
 due: 2017-10-05 23:59:00.00-7
