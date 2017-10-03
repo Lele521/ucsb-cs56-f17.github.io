@@ -6,6 +6,8 @@ desc: "Tools for java development"
 assigned: 2017-09-29 14:00:00.00-7
 due: 2017-10-05 23:59:00.00-7
 submit_cs: https://submit.cs.ucsb.edu/form/project/550/submission
+org: ucsb-cs56-f17
+herokuapp: https://ucsb-cs56-f17-signup.herokuapp.com
 ---
 
 If you find typos or problems with the lab instructions, please report them on Piazza
@@ -13,28 +15,19 @@ If you find typos or problems with the lab instructions, please report them on P
 Overview of this lab
 ====================
 
-Here is an overview of the remaining steps in the lab:
+0. Login at github.com.  Click on the drop down menu at left where your username appears, and ensure that <tt>{{page.org}}</tt> appears    among your organizations in the drop down menu.  If not:
+   - Be sure that you've registered for the course at <{{page.herokuapp}}>
+   - Be sure that you've accepted the invitation to the organization <tt>{{page.org}}</tt> by visiting <https://github.com/{{page.org}}>
 
-0. If you didn't already do it:
-    - Create a github.com account
-    - Fill out the form at <http://bit.ly/cs56-f16-survey>
-    
-1. Visit <https://github.ucsb.edu> and login with your CSIL account, then logout immediately.  This establishes 
-    your github.ucsb.edu account.  BUT WE WILL NOT USE THAT ACCOUNT FURTHER IN THIS LAB.
 
-2. Instead, login at <https://github.com>.   After logging in, visit this link: <https://github.com/UCSB-CS56-F16>
-    You should have an invitation to join this organization.     Please accept the invitation!
-    
-    If you do not, please ask your mentor to invite you to the UCSB-CS56-F16 organization on github.
-
-3. Now, create a *private* repo for {{page.num}} under the UCSB-CS56-F16 organization on <github.com>
+1. Now, create a *private* repo for {{page.num}} under the UCSB-CS56-F16 organization on <github.com>
     - It should be called <b>{{page.num}}_yourgithubid</b>
     - It should be <b>private</b>, not public.
     - The owner should be the <b>UCSB-CS56-F16</b> organization as the owner, not your own github id.
     - Add a .gitignore for Java and a README.md file
     - detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/github_com_create_private_repo_under_org/)
 
-3.  Configure your CSIL account for git
+2.  Configure your CSIL account for git
     - detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/csil_git_configuration/)
     - <span style="color:red; font-weight:bold">and here!!!</span> [Configuring your ssh key for Github.com](https://ucsb-cs56-pconrad.github.io/topics/github_ssh_keys/)
     
@@ -135,7 +128,7 @@ Note that you will not be able to publish your javadoc online with the github pa
 Publishing your javadoc online
 ==============================
 
-1. Create a *public*_repo with the name `{{page.num}}_javadoc_yourgithubid` under the <https://github.com/UCSB-CS56-F16> organization with a `README.md` (it is not necessary to include a .gitignore).
+1. Create a *public*_repo with the name `{{page.num}}_javadoc_yourgithubid` under the <https://github.com/{{page.org}}> organization with a `README.md` (it is not necessary to include a .gitignore).
 2. cd into your ~/cs56 directory (or into whatever directory you cloned your `{{page.num}}_yourgithubid` repo).  You want to clone your `{{page.num}}_javadoc_yourgithubid` repo into the same directory so that they are siblings, side-by-side in the same directory.
 3. We will now add some lines into your build.xml that copy the generated javadoc from your private repo to the public repo, 
    and we'll set the default branch of the public repo to be gh-pages.
@@ -154,10 +147,10 @@ When you are finished
 
 When you are finished, you'll have:
 
-* the url of your completed repo (e.g. <https://github.com/UCSB-CS56-F16/{{page.num}}_yourgithubid> )
+* the url of your completed repo (e.g. <https://github.com/{{page.org}}/{{page.num}}_yourgithubid> )
 * the url of your javadoc (which will be in a separate public repo)
-  * URL of that repo will be: <https://github.com/UCSB-CS56-F16/{{page.num}}_javadoc_yourgithubid>
+  * URL of that repo will be: <https://github.com/{{page.org}}/{{page.num}}_javadoc_yourgithubid>
   * When you push to a gh-pages branch, that repo's content will be published at
-    <https://UCSB-CS56-F16.github.io/{{page.num}}_javadoc_yourgithubid/javadoc/index.html>
+    <https://{{page.org}}.github.io/{{page.num}}_javadoc_yourgithubid/javadoc/index.html>
 
-Visit [the lab01 assignment on Gauchospace](https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=674738) to paste these URLs into the "online text" submission area for {{page.num}}.
+Visit the lab01 assignment on Gauchospace to paste these URLs into the "online text" submission area for {{page.num}}.
