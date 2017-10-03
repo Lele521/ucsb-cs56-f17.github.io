@@ -117,20 +117,18 @@ So, don't repeat yourself:
 Signify that you are finished by committing code to a github repo that contains a modified version of ex08, with all of the
 following:
 
-* a `build.xml` file <s>(you shouldn't need to modify the example)</s> <b>Update: later instructions ask you to make 
-    a few modifications to the `build.xml` to update the javadoc, for example.  Please *do* make these modifications.</b>
-
+* a `build.xml` file. You'll be making a few modifications to the `build.xml` to update the javadoc.
 * a `src` subdirectory containing `Main.java`, `Rational.java`, and `RationalTest.java`
 * a `lib` subdirectory contining the jar file for JUnit
 * a `javadoc` subdirectory in which you have produced the javadoc by running `ant javadoc`
 
-Note that you will not be able to publish your javadoc online with the github pages technique (i.e. pushing to a gh-pages branch), because this only works with public repos, not with private ones.   So, we've added some instructions below for publishing the javadoc to a separate public repo with the name {{page.num}}_javadoc_yourgithubid.
+Note that you will not be able to publish your javadoc online with the github pages technique (i.e. pushing to a gh-pages branch), because this only works with public repos, not with private ones.   So, we've added some instructions below for publishing the javadoc to a separate public repo with the name {{page.num}}\_javadoc\_yourgithubid.
 
 Publishing your javadoc online
 ==============================
 
-1. Create a *public*_repo with the name `{{page.num}}_javadoc_yourgithubid` under the <https://github.com/{{page.org}}> organization with a `README.md` (it is not necessary to include a .gitignore).
-2. cd into your ~/cs56 directory (or into whatever directory you cloned your `{{page.num}}_yourgithubid` repo).  You want to clone your `{{page.num}}_javadoc_yourgithubid` repo into the same directory so that they are siblings, side-by-side in the same directory.
+1. Create a *public*_repo with the name `{{page.num}}\_javadoc\_yourgithubid` under the <https://github.com/{{page.org}}> organization with a `README.md` (it is not necessary to include a .gitignore).
+2. cd into your ~/cs56 directory (or into whatever directory you cloned your `{{page.num}}\_yourgithubid` repo).  You want to clone your `{{page.num}}\_javadoc\_yourgithubid` repo into the same directory so that they are siblings, side-by-side in the same directory.
 3. We will now add some lines into your build.xml that copy the generated javadoc from your private repo to the public repo, 
    and we'll set the default branch of the public repo to be gh-pages.
    That process is explained in detail here: [Javadoc: publishing to github pages from private repo](https://ucsb-cs56-pconrad.github.io/topics/javadoc_publishing_to_github_pages_from_private_repo)
@@ -138,7 +136,7 @@ Publishing your javadoc online
    the following one (but with your githubid instead of `yourgithubid`).
 
 ```
-    https://UCSB-CS56-F16.github.io/{{page.num}}_javadoc_yourgithubid/javadoc/index.html
+    https://UCSB-CS56-F16.github.io/{{page.num}}\_javadoc\_yourgithubid/javadoc/index.html
 ```
 
 If you run into difficulties, ask your mentor/TA/instructor if in class, or ask on Piazza if outside of class.
