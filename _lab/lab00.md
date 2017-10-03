@@ -1,10 +1,11 @@
 ---
 layout: lab
 num: lab00
-ready: false
+ready: true
 desc: "Getting Started"
-assigned: 2017-09-29 09:30:00.00-7
-due: 2017-10-05 23:59:00.00-7
+assigned: 2017-10-03 09:30:00.00-7
+due: 2017-10-06 17:00:00.00-7
+submit_cs_projnum: 833
 ---
 
 
@@ -85,26 +86,10 @@ public class HelloWorld {
 
    If you are working on CSIL, use the command:
 
-   ```
-   ~submit/submit -p 524 HelloWorld.java
-   ```
+   <tt>~submit/submit -p {{page.submit_cs_projnum}} HelloWorld.java</tt>
 
    If you are working on your own machine, visit: 
 
-   <https://submit.cs.ucsb.edu/form/project/524/submission>
+   <https://submit.cs.ucsb.edu/form/project/{{page.submit_cs_projnum}}/submission>
 
-9. Once you see that you have a score of 100 for the lab, you are *almost*
-   finished with lab00.  There is, however, one more step.
-
-   Much of the work for the first part of this course will be done in pairs.
-   
-   Find a pair partner to work with, and let one of the
-   mentors know who that person will be.
-   
-   It is best to choose on the basis of your level of your prior experience with Java, as well as
-   compatible schedules.
-
-   The mentor will record your choice on the course website by
-   first name, and last initial on the "Team" pages.   Be sure that your name appears there
-   together with your pair partner's name on your team page before you leave lab today.
-   
+9. Once you see that you have a score of 100 for the lab, you are *done* with lab00.  
