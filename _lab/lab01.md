@@ -8,6 +8,7 @@ due: 2017-10-05 23:59:00.00-7
 submit_cs: https://submit.cs.ucsb.edu/form/project/550/submission
 org: ucsb-cs56-f17
 herokuapp: https://ucsb-cs56-f17-signup.herokuapp.com
+gauchospace_link: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=928343
 ---
 
 If you find typos or problems with the lab instructions, please report them on Piazza
@@ -153,4 +154,4 @@ When you are finished, you'll have:
   * When you push to a gh-pages branch, that repo's content will be published at
     <https://{{page.org}}.github.io/{{page.num}}_javadoc_yourgithubid/javadoc/index.html>
 
-Visit the lab01 assignment on Gauchospace to paste these URLs into the "online text" submission area for {{page.num}}.
+Visit the [lab01 assignment on Gauchospace]({{page.gauchospace_link}}) to paste these URLs into the "online text" submission area for {{page.num}}.
