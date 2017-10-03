@@ -22,7 +22,7 @@ Overview of this lab
 
 
 1. Now, create a *private* repo for {{page.num}} under the UCSB-CS56-F16 organization on <github.com>
-    - It should be called <b>{{page.num}}_yourgithubid</b>
+    - It should be called <b>{{page.num}}-yourgithubid</b>
     - It should be <b>private</b>, not public.
     - The owner should be the <b>UCSB-CS56-F16</b> organization as the owner, not your own github id.
     - Add a .gitignore for Java and a README.md file
@@ -127,8 +127,8 @@ Note that you will not be able to publish your javadoc online with the github pa
 Publishing your javadoc online
 ==============================
 
-1. Create a *public*_repo with the name `{{page.num}}\_javadoc\_yourgithubid` under the <https://github.com/{{page.org}}> organization with a `README.md` (it is not necessary to include a .gitignore).
-2. cd into your ~/cs56 directory (or into whatever directory you cloned your `{{page.num}}\_yourgithubid` repo).  You want to clone your `{{page.num}}\_javadoc\_yourgithubid` repo into the same directory so that they are siblings, side-by-side in the same directory.
+1. Create a *public*_repo with the name `{{page.num}}-javadoc-yourgithubid` under the <https://github.com/{{page.org}}> organization with a `README.md` (it is not necessary to include a .gitignore).
+2. cd into your ~/cs56 directory (or into whatever directory you cloned your `{{page.num}}-yourgithubid` repo).  You want to clone your `{{page.num}}-javadoc-yourgithubid` repo into the same directory so that they are siblings, side-by-side in the same directory.
 3. We will now add some lines into your build.xml that copy the generated javadoc from your private repo to the public repo, 
    and we'll set the default branch of the public repo to be gh-pages.
    That process is explained in detail here: [Javadoc: publishing to github pages from private repo](https://ucsb-cs56-pconrad.github.io/topics/javadoc_publishing_to_github_pages_from_private_repo)
@@ -136,7 +136,7 @@ Publishing your javadoc online
    the following one (but with your githubid instead of `yourgithubid`).
 
 ```
-    https://UCSB-CS56-F16.github.io/{{page.num}}\_javadoc\_yourgithubid/javadoc/index.html
+    https://UCSB-CS56-F16.github.io/{{page.num}}-javadoc-yourgithubid/javadoc/index.html
 ```
 
 If you run into difficulties, ask your mentor/TA/instructor if in class, or ask on Piazza if outside of class.
@@ -146,9 +146,9 @@ When you are finished
 
 When you are finished, you'll have:
 
-* the url of your completed repo (e.g. <https://github.com/{{page.org}}/{{page.num}}_yourgithubid> )
+* the url of your completed repo (e.g. <https://github.com/{{page.org}}/{{page.num}}-yourgithubid> )
 * the url of your javadoc (which will be in a separate public repo)
-  * URL of that repo will be: <https://github.com/{{page.org}}/{{page.num}}_javadoc_yourgithubid>
+  * URL of that repo will be: <https://github.com/{{page.org}}/{{page.num}}-javadoc-yourgithubid>
   * When you push to a gh-pages branch, that repo's content will be published at
     <https://{{page.org}}.github.io/{{page.num}}_javadoc_yourgithubid/javadoc/index.html>
 
