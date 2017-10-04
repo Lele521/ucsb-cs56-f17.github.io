@@ -58,10 +58,13 @@ Overview of this lab
     personal computer).
     - You can review the [cloning your first repo](https://ucsb-cs56-pconrad.github.io/topics/git_cloning_your_first_repo/) tutorial if you need a reminder as to how to do this.
     
-8.  Work through the eight examples shown so that you learn some of the basis material about how to work with Java:
+8.  Work through the [the first eight parts (ex01-ex08) of the Rational Tutorial](https://ucsb-cs56-pconrad.github.io/tutorials/rational/) so that you learn some of the basic material about how to work with Java:
     - `java`, `javac`, `ant`
     - `build.xml` files
     - JUnit testing
+    
+    You do not need to continue on to parts 09 and further at this time.  Those parts pertain to labs that
+    will come later in the quarter.
     
 9.  You are now ready to work on your own lab.
     - Copy the files from the <https://github.com/UCSB-CS56-pconrad/cs56-rational-ex08> repo into the top level directory of
