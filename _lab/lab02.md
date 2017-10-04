@@ -269,7 +269,7 @@ we could publish our javadoc.
 In this step, please do the SAME thing for your {{page.num}} repo.
 
 Your public repo will have the same name as your private repo, except
-that it will start with `{{page.num}}_javadoc_` instead of `{{page.num}}_`.  The
+that it will start with `{{page.num}}-javadoc-` instead of `{{page.num}}-`.  The
 rest of the name is either a single github id, or a pair of githubids
 separated by an underscore.
 
