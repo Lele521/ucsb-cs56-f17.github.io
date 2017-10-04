@@ -263,7 +263,7 @@ In short:
 Step 2: Making a parallel public javadoc repo
 ---------------------------------------------
 
-In lab01, we set up a public repo, `lab01_javadoc_github`, as a sibling of our private repo, `lab01_github`, so that
+In lab01, we set up a public repo, `lab01-javadoc-githubid`, as a sibling of our private repo, `lab01-githubid`, so that
 we could publish our javadoc.
 
 In this step, please do the SAME thing for your {{page.num}} repo.
@@ -278,12 +278,12 @@ The instructions for setting this up are here:
 * [Javadoc: publishing to github pages for a private repo](https://ucsb-cs56-pconrad.github.io/topics/javadoc_publishing_to_github_pages_from_private_repo/)
 
 Once you've done these things, you are ready to move on to the Java programming part of this lab:
-* Set up this additional `{{page.num}}_javadoc_...` repo
-* Adjust the default branch of that repo to `gh-pages`
+* Set up this additional `{{page.num}}-javadoc_...` repo
+* Change the settings as needed to publish the content to github pages
 * Clone it as a sibling of your `{{page.num}}_...` repo
 * Make the necessary adjustments to the `build.xml` of your private repo
 * Generate the javadoc
-* Publish it in the public repo
+* Publish it in the public repo as a webpage
 
 
 Step 3: Java Programming
@@ -306,11 +306,11 @@ If there are corrections to the tests, that information will be sent
 out to you by email and posted on the "Instructor Announcements" forum
 in Gauchospace.
 
-Do NOT simply change the PolynomialTest.java file. We will test your
-program against the original PolynomialTest.java file (with any
+Do NOT simply change the `PolynomialTest.java` file. We will test your
+program against the original `PolynomialTest.java` file (with any
 corrections that are distributed).
 
-You may ADD tests to PolynomialTest.java, but you may not CHANGE the
+You may ADD tests to `PolynomialTest.java`, but you should not CHANGE the
 tests that are listed there or delete tests, unless you have been told
 to do so in an email from the instructor.
 
@@ -323,17 +323,17 @@ anything.
 
 ### Suggested order of work
 
--   (1) Generate the javadoc (ant javadoc) and look through the descriptions of all the methods. For each method, look through PolynomialTest.java and find test cases that use that method. Try to understand what each method is supposed to do.
+-   (1) Generate the javadoc (`ant javadoc`) and look through the descriptions of all the methods. For each method, look through PolynomialTest.java and find test cases that use that method. Try to understand what each method is supposed to do.
 
--   (2) The first methods I suggest you undertake are degreeCoeffsHighToLow, degreeCoeffsLowToHigh, lowToHigh, and highToLow. These are the easiest to understand, and the easiest to get their tests to pass. Plus, you may find these methods handy in implementing other methods later.
+-   (2) The first methods I suggest you undertake are `degreeCoeffsHighToLow`, `degreeCoeffsLowToHigh`, `lowToHigh`, and `highToLow`. These are the easiest to understand, and the easiest to get their tests to pass. Plus, you may find these methods handy in implementing other methods later.
 
 -   (3) Next, I HIGHLY RECOMMEND that you get the constructor from the int \[\] and the toString methods working before doing anything else. Having these correct will help you with the output of the JUnit test cases for the other methods. If toString isn't correct, the JUnit output won't make any sense.
 
--   (4) Next, I HIGHLY RECOMMEND that you get .equals working. Keep in mind that JUnit uses the .equals method internally to when it compares one Polynomial to another. If. .equals() doesn't work correctly for your class, then JUnit isn't going to work correctly.
+-   (4) Next, I HIGHLY RECOMMEND that you get `.equals` working. Keep in mind that JUnit uses the `.equals` method internally to when it compares one Polynomial to another. If `.equals()` doesn't work correctly for your class, then JUnit isn't going to work correctly.
 
 -   (5) Next, tackle the constructors.
 
--   (6) Finally, do plus THEN times, and save minus for last. If you do it in that order, you'll find that you can implement minus with a clever time-saving trick. Hint: It does NOT involve copy and paste.
+-   (6) Finally, do `plu`s THEN `times`, and save `minus` for last. If you do it in that order, you'll find that you can implement `minus` with a clever time-saving trick. Hint: It does NOT involve copy and paste.
 
 <div style="text-align:center; font-weight:bold;">
 Helper functions are a good idea
@@ -346,7 +346,7 @@ There are two approaches to dealing with helper methods, each of which can be ar
 -   Make them private, since they are helper methods and no code outside the class should be using them.
 -   Make them public, so that they can be easily unit tested.
 
-My suggestion is: make them private UNLESS you write units tests. And writing units tests is a VERY GOOD IDEA. But, that's up to you.
+My suggestion is: make them private UNLESS you write unit tests. And writing unit tests is a VERY GOOD IDEA. But, that's up to you.
 
 ### Additional debugging help
 
