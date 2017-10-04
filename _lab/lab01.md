@@ -21,10 +21,10 @@ Overview of this lab
    - Be sure that you've accepted the invitation to the organization <tt>{{page.org}}</tt> by visiting <https://github.com/{{page.org}}>
 
 
-1. Now, create a *private* repo for {{page.num}} under the UCSB-CS56-F16 organization on <github.com>
+1. Now, create a *private* repo for {{page.num}} under the UCSB-CS56-F17 organization on <github.com>
     - It should be called <b>{{page.num}}-yourgithubid</b>
     - It should be <b>private</b>, not public.
-    - The owner should be the <b>UCSB-CS56-F16</b> organization as the owner, not your own github id.
+    - The owner should be the <b>UCSB-CS56-F17</b> organization as the owner, not your own github id.
     - Add a .gitignore for Java and a README.md file
     - detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/github_com_create_private_repo_under_org/)
 
@@ -136,7 +136,7 @@ Publishing your javadoc online
    the following one (but with your githubid instead of `yourgithubid`).
 
 ```
-    https://UCSB-CS56-F16.github.io/{{page.num}}-javadoc-yourgithubid/javadoc/index.html
+    https://UCSB-CS56-F17.github.io/{{page.num}}-javadoc-yourgithubid/javadoc/index.html
 ```
 
 If you run into difficulties, ask your mentor/TA/instructor if in class, or ask on Piazza if outside of class.
