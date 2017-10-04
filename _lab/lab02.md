@@ -7,6 +7,7 @@ assigned: 2017-10-05 09:30:00.00-7
 due: 2017-10-17 17:00:00.00-7
 submit_cs_link: "https://submit.cs.ucsb.edu/form/project/835/submission"
 github_org: UCSB-CS56-F17
+gauchospace_url: "https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=930334"
 ---
 
 
@@ -433,9 +434,9 @@ Step 4: Submitting on Gauchospace
 Once you've done your final lookover and updated your javadoc, to let us know that you are finished with your lab, and that it is ready for grading, you should visit the {{page.num}} link on Gauchospace.com and follow the instructions
 there to link to both your {{page.num}} private repo, and the public repo for your javadoc.
 
-If working in a pair, BOTH pair partners should do this, and if you ARE working in a pair, your submission on Gauchospace should
-indicate this.
+If working in a pair, BOTH pair partners should do this, and if you ARE working in a pair, your submission on Gauchospace should indicate this.
 
+The Gauchospace link for {{page.num}} is: <{{page.gauchospace_url}}>
 
 Step 5: Submitting via submit.cs
 --------------------------------
