@@ -149,7 +149,7 @@ When you are finished, you'll have:
 * the url of your completed repo (e.g. <https://github.com/{{page.org}}/{{page.num}}-yourgithubid> )
 * the url of your javadoc (which will be in a separate public repo)
   * URL of that repo will be: <https://github.com/{{page.org}}/{{page.num}}-javadoc-yourgithubid>
-  * When you push to a gh-pages branch, that repo's content will be published at
+  * When you push to your GitHub pages source branch, which should be `master` if you followed the [directions](https://ucsb-cs56-pconrad.github.io/topics/javadoc_publishing_to_github_pages_from_private_repo), that repo's content will be published at
     <https://{{page.org}}.github.io/{{page.num}}-javadoc-yourgithubid/javadoc/index.html>
 
 Visit the [lab01 assignment on Gauchospace]({{page.gauchospace_link}}) to paste these URLs into the "online text" submission area for {{page.num}}.   Please make that your links are clickable&mdash;there are [instructions here on how to make links on Gauchospace clickable](https://ucsb-cs56-pconrad.github.io/topics/gauchospace_clickable_urls)
