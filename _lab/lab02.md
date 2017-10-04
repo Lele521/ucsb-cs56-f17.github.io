@@ -69,8 +69,8 @@ Step 0: Preliminaries
 
 ### Step 0a: Creating a repo
 
-(0) Create a PRIVATE repo for <tt>{{page.num}}_githubid</tt> (or for a
-pair, <tt>{{page.num}}_github1_github2</tt>) under the {{page.github_org}}
+(0) Create a PRIVATE repo for <tt>{{page.num}}-githubid</tt> (or for a
+pair, <tt>{{page.num}}-github1-github2</tt>) under the {{page.github_org}}
 organization.
 
 For pair partners: create one repo.   One user will create repo, and add the second user as a collaborator.  (For instructions on adding collaborators, see: [https://ucsb-cs56-pconrad.github.io/topics/github_add_collaborator/](https://ucsb-cs56-pconrad.github.io/topics/github_add_collaborator/)
