@@ -156,3 +156,5 @@ When you are finished, you'll have:
     <https://{{page.org}}.github.io/{{page.num}}-javadoc-yourgithubid/javadoc/index.html>
 
 Visit the [lab01 assignment on Gauchospace]({{page.gauchospace_link}}) to paste these URLs into the "online text" submission area for {{page.num}}.   Please make that your links are clickable&mdash;there are [instructions here on how to make links on Gauchospace clickable](https://ucsb-cs56-pconrad.github.io/topics/gauchospace_clickable_urls)
+
+f you worked in a pair, please register your pair as a group in submit.cs for {{page.num}} before submitting. One partner’s submission on submit.cs counts for both of you.
