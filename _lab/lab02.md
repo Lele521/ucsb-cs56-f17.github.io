@@ -170,7 +170,7 @@ Step 1: A note about the .git directory and the .gitignore file
 
 If you aren't already there, cd into your repo directory.
 
--   repo is short for "repository"; your repo directory is something like ~/cs56/{{page.num}}_github1_github2
+-   repo is short for "repository"; your repo directory is something like ~/cs56/{{page.num}}-github1-github2
 -   from now on, I'll just say "your repo directory" and assume you know what I mean.
 
 As you may know, in Unix, "hidden files" are those that start with a dot.
