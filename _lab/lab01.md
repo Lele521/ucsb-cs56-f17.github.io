@@ -42,7 +42,7 @@ Overview of this lab
 4.  Review a few basic facts about git, github.com and github.ucsb.edu
     - detailed information [here](https://ucsb-cs56-pconrad.github.io/topics/git_overview/)
 
-5.  Clone your {{page.num}}_yourgithubid repo into your CSIL account.
+5.  Clone your `{{page.num}}-yourgithubid` repo into your CSIL account.
     - If you know how to do that, great.
     - If not, there are detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/git_cloning_your_first_repo/)
     
@@ -54,7 +54,7 @@ Overview of this lab
     - Congratulations: you now have a forked copy of the cs56-rational-ex01
     - What do you do with it? Read on...
     
-7.  Clone the cs56-rational-ex01 repo that you forked to your cs56 account (or your
+7.  Clone the `cs56-rational-ex01` repo that you forked to your cs56 account (or your
     personal computer).
     - You can review the [cloning your first repo](https://ucsb-cs56-pconrad.github.io/topics/git_cloning_your_first_repo/) tutorial if you need a reminder as to how to do this.
     
@@ -75,7 +75,7 @@ Overview of this lab
 10. Follow the detailed instructions below to complete the assignment.
 
 11. When you are finished, be sure you have done a "git push origin master" to push your changes to github.
-    Then, you can downloaded a .zip version of your assignment from github, rename it to `lab01.zip`, and 
+    Then, you can download a .zip version of your assignment from github, rename it to `lab01.zip`, and 
     submit via submit.cs at this link: <{{page.submit_cs}}> 
 
 12. Then, follow the additional instructions below to create javadoc for your project, publish it to a public 
@@ -122,7 +122,7 @@ following:
 * a `lib` subdirectory contining the jar file for JUnit
 * a `javadoc` subdirectory in which you have produced the javadoc by running `ant javadoc`
 
-Note that you will not be able to publish your javadoc online with the github pages technique (i.e. pushing to a gh-pages branch), because this only works with public repos, not with private ones.   So, we've added some instructions below for publishing the javadoc to a separate public repo with the name {{page.num}}\_javadoc\_yourgithubid.
+Note that you will not be able to publish your javadoc online with the github pages technique (i.e. pushing to a gh-pages branch), because this only works with public repos, not with private ones.   So, we've added some instructions below for publishing the javadoc to a separate public repo with the name `{{page.num}}-javadoc-yourgithubid`.
 
 Publishing your javadoc online
 ==============================
@@ -150,6 +150,6 @@ When you are finished, you'll have:
 * the url of your javadoc (which will be in a separate public repo)
   * URL of that repo will be: <https://github.com/{{page.org}}/{{page.num}}-javadoc-yourgithubid>
   * When you push to a gh-pages branch, that repo's content will be published at
-    <https://{{page.org}}.github.io/{{page.num}}_javadoc_yourgithubid/javadoc/index.html>
+    <https://{{page.org}}.github.io/{{page.num}}-javadoc-yourgithubid/javadoc/index.html>
 
 Visit the [lab01 assignment on Gauchospace]({{page.gauchospace_link}}) to paste these URLs into the "online text" submission area for {{page.num}}.   Please make that your links are clickable&mdash;there are [instructions here on how to make links on Gauchospace clickable](https://ucsb-cs56-pconrad.github.io/topics/gauchospace_clickable_urls)
