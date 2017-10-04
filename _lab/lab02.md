@@ -133,18 +133,20 @@ when a program throws an exception. For example, instead of:
     -bash-4.2$ 
 ```
 
-You'll get the following. Note that the output now includes a way of
+You'll get the following:
+
+```
+    Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
+        at Foo.main(Foo.java:7)
+```
+
+Note that the output now includes a way of
 finding what line of source code was executing when the exception
 occurred: the name of the file, and the line number of source code in
 that file. Note how:
 
 -   above, the error message says that the error in Foo.main was at: `(Unknown` `Source)`
 -   below, the error message says that the error in Foo.main was at: `(Foo.java:7)`
-
-```
-    Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
-        at Foo.main(Foo.java:7)
-```
 
 (2) Change the run target of your build.xml to run the main
 from the `Polynomial` class. Test this. You'll probably get a "usage"
