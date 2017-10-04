@@ -110,6 +110,10 @@ Some hints to make things easier:
 * (a - b) is equivalent to (a + (-1 * b))
 * (a / b) is equivalent to (a * reciprocal(b))
 
+Suggested test case:
+* What happens when you create the rational with `Rational(6,-3)` or `Rational(-6,3)`?
+* What about the rational `Rational(3,-7)`, `Rational(-3, 7)`, or `Rational(-3,-7)`?
+
 So, don't repeat yourself:
 * Multiplication and gcd are already defined for you in the example code.
 * You need lcm to find a common denominator to add two rationals, so define lcm before addition.
