@@ -5,7 +5,7 @@ ready: true
 desc: "Tools for java development"
 assigned: 2017-10-03 14:00:00.00-7
 due: 2017-10-10 23:59:00.00-7
-submit_cs: https://submit.cs.ucsb.edu/form/project/550/submission
+submit_cs: https://submit.cs.ucsb.edu/form/project/834/submission
 org: ucsb-cs56-f17
 herokuapp: https://ucsb-cs56-f17-signup.herokuapp.com
 gauchospace_link: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=928343
