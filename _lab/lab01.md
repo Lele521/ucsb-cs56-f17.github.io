@@ -74,6 +74,31 @@ Overview of this lab
     - For that, you'll need the basic git workflow, explained [here](https://ucsb-cs56-pconrad.github.io/topics/git_basic_workflow/)
     - Once you have an initial version of the files, you are ready to start work.
     - Note that to commit the `lib` subdirectory, you may need the `-f` flag, as in `git add -f lib/*.jar`
+    - The full set of commands will look something like this:
+```
+[17:05:12 holt@Metis cs56]$ ls
+cs56-rational-ex01 lab01-kevinburk
+[17:05:14 holt@Metis cs56]$ git clone https://github.com/UCSB-CS56-pconrad/cs56-rational-ex08
+Cloning into 'cs56-rational-ex08'...
+remote: Counting objects: 343, done.
+remote: Total 343 (delta 0), reused 0 (delta 0), pack-reused 343
+Receiving objects: 100% (343/343), 280.52 KiB | 2.30 MiB/s, done.
+Resolving deltas: 100% (229/229), done.
+[17:05:23 holt@Metis cs56]$ cd lab01-kevinburk/
+[17:05:29 holt@Metis cs56]$ cp -r cs56-rational-ex08/* lab01-kevinburk/
+[17:05:42 holt@Metis cs56]$ cd lab01-kevinburk/
+[17:06:14 holt@Metis lab01-kevinburk]$ ll
+total 32
+-rw-r--r--   1 holt  staff  1067 Oct  4 17:05 LICENSE
+-rw-r--r--   1 holt  staff    98 Oct  4 17:05 README.md
+-rw-r--r--   1 holt  staff  1881 Oct  4 17:05 build.xml
+-rw-r--r--   1 holt  staff   598 Oct  4 17:05 index.html
+drwxr-xr-x  19 holt  staff   646 Oct  4 17:05 javadoc
+drwxr-xr-x   3 holt  staff   102 Oct  4 17:05 lib
+drwxr-xr-x   5 holt  staff   170 Oct  4 17:05 src
+[17:06:15 holt@Metis lab01-kevinburk]$ git add .
+[17:06:21 holt@Metis lab01-kevinburk]$ git add -f lib
+```
     
 10. Follow the detailed instructions below to complete the assignment.
 
