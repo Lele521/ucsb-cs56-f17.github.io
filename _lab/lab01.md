@@ -84,7 +84,6 @@ remote: Counting objects: 343, done.
 remote: Total 343 (delta 0), reused 0 (delta 0), pack-reused 343
 Receiving objects: 100% (343/343), 280.52 KiB | 2.30 MiB/s, done.
 Resolving deltas: 100% (229/229), done.
-[17:05:23 holt@Metis cs56]$ cd lab01-kevinburk/
 [17:05:29 holt@Metis cs56]$ cp -r cs56-rational-ex08/* lab01-kevinburk/
 [17:05:42 holt@Metis cs56]$ cd lab01-kevinburk/
 [17:06:14 holt@Metis lab01-kevinburk]$ ll
