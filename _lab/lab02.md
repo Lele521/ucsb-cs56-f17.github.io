@@ -213,7 +213,7 @@ BUT, the .gitignore file has special powers over the way that git operates.
 
 Generally speaking, when we set up a repository, we want to store only SOURCE CODE:
 
--   For Java, we store the .java files in the repo, but NOT the .class files
+-   For Java, we store the .java files in the repo, but NOT the .class or .jar files
 -   For C/C++ we store the .c, .h, .cpp files in the repo, but NOT the .o files, and executables
 -   etc.
 
@@ -232,6 +232,12 @@ You see that there are two lines in this file.
 -   The second line says: "any file that ends in .class should be ignored by git".
 
 You will see that when you do "git status" in this repo, the backup and .class files don't show up. They are ignore by git. And that's the way we want it.
+
+Note: Remember how we're using a specific version of JUnit for testing? If you want that specific .jar file to be uploaded with your repository, you'll need to add the following line when you're `git add`-ing files for the first time:
+
+    git add --force lib/junit-4.8.2.jar
+    
+The --force flag is FORCING git to track the file despite the .gitignore file not tracking any `.jar` files.
 
 ### What YOU NEED TO DO for this step
 
