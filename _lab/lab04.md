@@ -127,19 +127,17 @@ repo listed in the table below, for your individual mentor.
 
 If you are unable to find that repo, please ask for help.
 
-| mentor | repo to fork |
+| mentor   | repo to fork |
 |----------|--------------|
-|Alex      | <https://github.com/athielk/{{page.repo_base_name}}>
-|Angela	   | <https://github.com/asyung/{{page.repo_base_name}}>
-|Chandler  | <https://github.com/zhanchengqian/{{page.repo_base_name}}>
-|Franklin  | <https://github.com/Tektonbuilds/{{page.repo_base_name}}>
-|Geon      | <https://github.com/johnUCSB/{{page.repo_base_name}}>
-|Jimmy     | <https://github.com/Jimmylle/{{page.repo_base_name}}>
-|John	   | <https://github.com/jmangel/{{page.repo_base_name}}>
-|Jack      | <https://github.com/jalexanderqed/{{page.repo_base_name}}>
+|Aryaman   | <https://github.com/aryamandas/{{page.repo_base_name}}>
+|Joel	   | <https://github.com/joelbagan/{{page.repo_base_name}}>
+|Johnny    | <https://github.com/johnnyzhang1738/{{page.repo_base_name}}>
+|Kevin L.  | <https://github.com/kevinlee00/{{page.repo_base_name}}>
+|Natasha   | <https://github.com/natashalee/{{page.repo_base_name}}>
+|Sean      | <https://github.com/sean-shelton/{{page.repo_base_name}}>
+|Scott	   | <https://github.com/scottpchow23/{{page.repo_base_name}}>
 |Steven	   | <https://github.com/SElegans/{{page.repo_base_name}}>
-|Vivek	   | <https://github.com/vivekpatel42/{{page.repo_base_name}}>
-|William   | <https://github.com/MadRubicant/{{page.repo_base_name}}>
+|Laura     | <https://github.com/lanthony159/{{page.repo_base_name}}>
 
 
 Step 1: Fork your repo
