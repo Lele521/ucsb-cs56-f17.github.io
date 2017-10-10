@@ -7,7 +7,7 @@ assigned: 2017-10-20 14:00:00.00-7
 due: 2017-10-29 12:00:00.00-7
 root_repo: https://github.com/UCSB-CS56-F16/F16-lab04
 repo_base_name: F16-lab04
-fork_tree_img: cs56-m16-lab06-fork-tree.png
+fork_tree_img: cs56-f17-lab04-fork-tree.png
 mentor_list_url: https://ucsb-cs56-f16.github.io/info/projects/
 gauchospace_register_drawings: https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=689271
 ---
@@ -46,7 +46,7 @@ repo and the mentors {% if site.mentors_list %}({{site.mentors_list}}){% endif %
 **jcruz** standing in as sample students—that's where each of you will
 be in this tree (i.e. at the leaves).
 
-<img src="https://docs.google.com/drawings/d/1W1iJ3a6SCuZa4JrABBVKR3j3niQKsOVmDe508h7tpWg/pub?w=1124&amp;h=454">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTGdCSaJiOAG4F9pxBAo7ppspe9KRFM3zdcGe8GMBXVrQNUKNbIuzOdRE7lDnBwCJugJa0GTbeLPl13/pub?w=1124&amp;h=454">
 
 The repo at the top of this tree is this one: <{{page.root_repo}}>
 
