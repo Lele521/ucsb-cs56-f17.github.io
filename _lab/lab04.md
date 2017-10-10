@@ -5,10 +5,10 @@ ready: false
 desc: "Intro to GUIs, Graphics"
 assigned: 2017-10-20 14:00:00.00-7
 due: 2017-10-29 12:00:00.00-7
-root_repo: https://github.com/UCSB-CS56-F16/F16-lab04
-repo_base_name: F16-lab04
+root_repo: https://github.com/UCSB-CS56-F17/F17-lab04
+repo_base_name: F17-lab04
 fork_tree_img: cs56-f17-lab04-fork-tree.png
-mentor_list_url: https://ucsb-cs56-f16.github.io/info/projects/
+mentor_list_url: https://ucsb-cs56-f17.github.io/info/projects/
 gauchospace_register_drawings: https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=689271
 ---
 
