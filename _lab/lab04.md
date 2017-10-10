@@ -138,6 +138,9 @@ If you are unable to find that repo, please ask for help.
 |Scott	   | <https://github.com/scottpchow23/{{page.repo_base_name}}>
 |Steven	   | <https://github.com/SElegans/{{page.repo_base_name}}>
 |Laura     | <https://github.com/lanthony159/{{page.repo_base_name}}>
+|Jonathan  | <https://github.com/easterandjay/{{page.repo_base_name}}>
+|Yun Suk   | <https://github.com/YunSuk/{{page.repo_base_name}}>
+|Kevin B.  | <https://github.com/xavierholt/{{page.repo_base_name}}>
 
 
 Step 1: Fork your repo
