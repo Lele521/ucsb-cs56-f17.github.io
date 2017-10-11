@@ -172,7 +172,7 @@ Javadoc for the starter code in [cs56-parsing-assignment]({{page.starter_repo}})
 
 # Getting Started #
 
-Please create a private repo in the {{page.course_github_org}} organization with the name <tt>{{page.num}}_yourgithubid</tt>,
+Please create an _empty_ (no .gitignore or README.md) private repo in the {{page.course_github_org}} organization with the name <tt>{{page.num}}_yourgithubid</tt>,
 
 <strong>If working in a pair</strong>
 
