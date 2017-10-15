@@ -7,7 +7,7 @@ assigned: 2017-10-13 14:00:00.00-7
 due: 2017-10-26 12:00:00.00-7
 last_before: Midterm Exam
 gauchospace_link: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=681773
-mdname: F16_lab03
+mdname: F17_lab03
 ---
 
 Before you begin this lab, you should be officially assigned to a mentor and to a pair.
