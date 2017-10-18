@@ -24,7 +24,7 @@ Together with your pair partner, you will do the following steps.   Note: this l
    * If you are not on the list, or if there is any error consult a mentor, TA or instructor to fix it.
 1. Then, find the legacy repo to which you've been assigned.  If you haven't been assigned a repo, ask your mentor to assign you and your pair 
    partner to a repo.
-2. Once you've been assigned to a repo, the pair partner with the github id that comes "first" in the alphabet should fork the repo to their own githubid.   We'll call this person "pair partner 1".
+2. Once you've been assigned to a repo, the pair partner with the github id that comes "first" in the alphabet should fork the repo (as a public repo) to their own githubid.   We'll call this person "pair partner 1".
 3. Then, pair partner 1 should add pair partner 2 as a collaborator (and if applicable, pair partner 3).
 3. Whoever is driving, clone the forked repo to the computer where you are working (this may be a directory on CSIL, or it may be
    your own laptop or desktop machine.  If it is your own computer, you'll need to install Java 8 and Ant.)
@@ -36,6 +36,8 @@ Together with your pair partner, you will do the following steps.   Note: this l
 7. Once you've done the pull request, record that you've done the pull request on Gauchospace, following the instructions [here]({{page.gauchospace_link}}).
 
 Then you are finished with {{page.num}}, and your first encounter with legacy code.
+
+**Note:** It is okay to create public forks of these legacy labs but ___not___ okay to create public repos for other labs.
 
 # Find the list of "issues" for the project, and read through them.
 
