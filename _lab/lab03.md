@@ -1,12 +1,12 @@
 ---
 layout: lab
 num: lab03
-ready: false
+ready: true
 desc: "First look at Legacy Code"
-assigned: 2017-10-13 14:00:00.00-7
-due: 2017-10-26 12:00:00.00-7
+assigned: 2017-10-18 14:00:00.00-7
+due: 2017-10-26 23:59:00.00-7
 last_before: Midterm Exam
-gauchospace_link: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=681773
+gauchospace_link: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=tbd
 mdname: F17_lab03
 ---
 
