@@ -7,7 +7,7 @@
   </tr>
   <tr>
     <td class="course-qtr">
-      {{site.course}}&#160;<span class="insert-qtr">{{qtr}}</span>
+      {{site.course}}&#160;<span class="insert-qtr">{% if page.qtr %}{{page.qtr}}{% else %}{{site.qtr}}{% endif %}</span>
     </td>
   </tr>
 </table>
