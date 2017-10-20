@@ -269,33 +269,7 @@ In short:
 -   Modify the `.gitignore` anytime there is some other kind of file that you also want git to ignore
 
 
-Step 2: Making a parallel public javadoc repo
----------------------------------------------
-
-In lab01, we set up a public repo, `lab01-javadoc-githubid`, as a sibling of our private repo, `lab01-githubid`, so that
-we could publish our javadoc.
-
-In this step, please do the SAME thing for your {{page.num}} repo.
-
-Your public repo will have the same name as your private repo, except
-that it will start with `{{page.num}}-javadoc-` instead of `{{page.num}}-`.  The
-rest of the name is either a single github id, or a pair of githubids
-separated by an underscore.
-
-The instructions for setting this up are here:
-
-* [Javadoc: publishing to github pages for a private repo](https://ucsb-cs56-pconrad.github.io/topics/javadoc_publishing_to_github_pages_from_private_repo/)
-
-Once you've done these things, you are ready to move on to the Java programming part of this lab:
-* Set up this additional `{{page.num}}-javadoc_...` repo
-* Change the settings as needed to publish the content to github pages
-* Clone it as a sibling of your `{{page.num}}_...` repo
-* Make the necessary adjustments to the `build.xml` of your private repo
-* Generate the javadoc
-* Publish it in the public repo as a webpage
-
-
-Step 3: Java Programming
+Step 2: Java Programming
 ------------------------
 
 Your programming task in this lab can be described very simply:
@@ -425,11 +399,12 @@ First, check your code Check it against two things:
 
 Even if you "solo programmed" this lab, you may want to see if you can find someone in the lab that also solo programmed, and ask him/her to be a "rubric buddy" with whom you can take turns doing this checklist step.
 
+
 ### Updating javadoc
 
-If you are working along, right before you do the final submission, do a "git commit", "git push" and then run "ant javadoc".
-
-Then do the steps to publish the updated javadoc to your public repo.
+Make sure you have generated javadoc with `ant javadoc` and that those files are
+pushed to Github.  Make sure that you are publishing the `docs` folder from your
+master branch on Github Pages (see lab01 if you don't remember how to do this).
 
 
 ### Final git pull, git status, git add, git commit, git push origin master
@@ -439,12 +414,12 @@ Go through the git steps one last time in case you made any last minute changes.
 Step 4: Submitting on Gauchospace
 ---------------------------------
 
-Once you've done your final lookover and updated your javadoc, to let us know that you are finished with your lab, and that it is ready for grading, you should visit the {{page.num}} link on Gauchospace.com and follow the instructions
-there to link to both your {{page.num}} private repo, and the public repo for your javadoc.
+Once you've done your final lookover  and updated your javadoc  you should visit
+the ({{page.num}} link on Gauchospace)[{{page.gauchospace_url}}]  and follow the
+instructions there to link to both your {{page.num}} repo and your javadoc.
 
 If working in a pair, BOTH pair partners should do this, and if you ARE working in a pair, your submission on Gauchospace should indicate this.
 
-The Gauchospace link for {{page.num}} is: <{{page.gauchospace_url}}>
 
 Step 5: Submitting via submit.cs
 --------------------------------

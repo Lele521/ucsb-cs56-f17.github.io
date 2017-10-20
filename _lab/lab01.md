@@ -148,41 +148,27 @@ So, don't repeat yourself:
 Signify that you are finished by committing code to a github repo that contains a modified version of ex08, with all of the
 following:
 
-* a `build.xml` file. You'll be making a few modifications to the `build.xml` to update the javadoc.
+* a `build.xml` file containing the ant tasks used to build the project.
 * a `src` subdirectory containing `Main.java`, `Rational.java`, and `RationalTest.java`
 * a `lib` subdirectory contining the jar file for JUnit
-* a `javadoc` subdirectory in which you have produced the javadoc by running `ant javadoc`
-
-Note that you will not be able to publish your javadoc online with the github pages technique (i.e. pushing to a gh-pages branch), because this only works with public repos, not with private ones.   So, we've added some instructions below for publishing the javadoc to a separate public repo with the name `{{page.num}}-javadoc-yourgithubid`.
+* a `docs` subdirectory in which you have produced javadoc by running `ant javadoc`
 
 Publishing your javadoc online
 ==============================
 
-1. Create a *public*_repo with the name `{{page.num}}-javadoc-yourgithubid` under the <https://github.com/{{page.org}}> organization with a `README.md` (it is not necessary to include a .gitignore).
-2. cd into your ~/cs56 directory (or into whatever directory you cloned your `{{page.num}}-yourgithubid` repo).  You want to clone your `{{page.num}}-javadoc-yourgithubid` repo into the same directory so that they are siblings, side-by-side in the same directory.
-3. We will now add some lines into your build.xml that copy the generated javadoc from your private repo to the public repo, 
-   and we'll set the default branch of the public repo to be gh-pages.
-   That process is explained in detail here: [Javadoc: publishing to github pages from private repo](https://ucsb-cs56-pconrad.github.io/topics/javadoc_publishing_to_github_pages_from_private_repo)
-4. Once you've followed the instructions in the link at step 3, your javadoc should be available online at a URL similar to
-   the following one (but with your githubid instead of `yourgithubid`).
-
-```
-    https://UCSB-CS56-F17.github.io/{{page.num}}-javadoc-yourgithubid/javadoc/index.html
-```
-
-If you run into difficulties, ask your mentor/TA/instructor if in class, or ask on Piazza if outside of class.
+1. Run `ant javadoc` to build your docs.
+2. You should now have a `docs` folder, and some files inside it. Push all of these to Github.
+3. In the Github UI, go to the Settings tab for your repo. Set your Github Pages source to "master branch /docs folder."
+4. Click the link that shows up once you change the source. You should see your javadoc.
 
 When you are finished
 =====================
 
 When you are finished, you'll have:
 
-* the url of your completed repo (e.g. <https://github.com/{{page.org}}/{{page.num}}-yourgithubid> )
-* the url of your javadoc (which will be in a separate public repo)
-  * URL of that repo will be: <https://github.com/{{page.org}}/{{page.num}}-javadoc-yourgithubid>
-  * When you push to your GitHub pages source branch, which should be `master` if you followed the [directions](https://ucsb-cs56-pconrad.github.io/topics/javadoc_publishing_to_github_pages_from_private_repo), that repo's content will be published at
-    <https://{{page.org}}.github.io/{{page.num}}-javadoc-yourgithubid/javadoc/index.html>
+* the url of your completed repo (e.g. <https://github.com/{{page.org}}/{{page.num}}-yourgithubid>)
+* the url of your javadoc (e.g. <https://{{page.org}}.github.io/{{page.num}}-yourgithubid/index.html>)
 
 Visit the [lab01 assignment on Gauchospace]({{page.gauchospace_link}}) to paste these URLs into the "online text" submission area for {{page.num}}.   Please make that your links are clickable&mdash;there are [instructions here on how to make links on Gauchospace clickable](https://ucsb-cs56-pconrad.github.io/topics/gauchospace_clickable_urls)
 
-f you worked in a pair, please register your pair as a group in submit.cs for {{page.num}} before submitting. One partner’s submission on submit.cs counts for both of you.
+If you worked in a pair, please register your pair as a group in submit.cs for {{page.num}} before submitting. One partner’s submission on submit.cs counts for both of you.
