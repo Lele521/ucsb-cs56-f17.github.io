@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab04
-ready: false
+ready: true
 desc: "Intro to GUIs, Graphics"
 assigned: 2017-10-25 14:00:00.00-7
 due: 2017-11-01 17:50:00.00-7
