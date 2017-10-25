@@ -26,5 +26,28 @@ Here are the current standards that a proposal for new legacy code project must 
    
 * If any existing code is used as a starting point, that code must be unencumbered open source with a clear open source license.
 
-* There should be a list of user stories stated in the form: "As a (role) I can (do some thing) so that (some goal is acheived)".
-   * See also: <https://ucsb-cs56-pconrad.github.io/topics/user_stories>
+* You must be willing to allow the code you write to be used as a legacy code project in future quarters of CMPSC 56.
+
+* There should be a list of user stories stated in the form: "As a (role) I can (do some thing) so that (some goal is acheived)".   
+   * See also: <http://ucsb-cs56-pconrad.github.io/topics/user_stories/>
+   * The list needs to have enough user stories in it that your mentor is satisfied that there is sufficient work for you to earn 1000 points by completing those stories, and still have room left to leave something for the next generation of students to work on the project.
+
+* You should convince your mentor and one of the TAs that you have a clear plan of attack for designing the software with good object oriented design.   
+
+* You should commit to building your project with good test coverage right from the start.
+
+If you are interested in writing such a proposal, please talk with your mentor or TA before starting.
+
+Note that we will ONLY BE ACCEPTING ONE PROPOSAL per mentor team.  So we may get more good proposals than we are in a position to accept.
+
+# Outline of your proposal
+
+To create a proposal, create a public repo under the ucsb-cs56-f17 organization with the name proposal01_githubid1_githubid2 where githubid1 and githubid2 are the names of you and your pair partner.
+
+In the README.md file for the repo, address the following.    It should be possible to read and understand the entire writeup in 10 minutes time, so provide enough detail that we can follow what you are proposing, but not so much that we can't read and digest it in 10 minutes.
+
+1. One sentence description of the proposed project
+2. A paragraph that elaborates on the one sentence description.
+3. Any other notes that you think are relevant.
+
+Then, add issues to the repo for enough user stories to constitute 1000 points worth of work.  Use the points assigned to the repo that you reviewed for lab03 as a guide.
