@@ -27,4 +27,4 @@ Here are the current standards that a proposal for new legacy code project must 
 * If any existing code is used as a starting point, that code must be unencumbered open source with a clear open source license.
 
 * There should be a list of user stories stated in the form: "As a (role) I can (do some thing) so that (some goal is acheived)".
-   * See also: <https://ucsb-cs56-pconrad.github.io/topics/agile/>
+   * See also: <https://ucsb-cs56-pconrad.github.io/topics/user_stories>
