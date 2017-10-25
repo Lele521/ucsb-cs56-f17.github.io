@@ -32,10 +32,13 @@ Here are the current standards that a proposal for new legacy code project must 
    * See also: <http://ucsb-cs56-pconrad.github.io/topics/user_stories/>
    * The list needs to have enough user stories in it that your mentor is satisfied that there is sufficient work for you to earn 1000 points by completing those stories, and still have room left to leave something for the next generation of students to work on the project.
 
-* You should convince your mentor and one of the TAs that you have a clear plan of attack for designing the software with good object oriented design.   
+* You should convince your mentor and one of the TAs that you have a clear plan of attack for designing the software with good object oriented design.   Your mentor and/or the TA reviewing your proposal may require you to submit some kind of architecture design&mdash;it will be up to them what form that might take.
 
-* You should commit to building your project with good test coverage right from the start.
-
+* You should commit to the following good coding practices:
+   * building your project with good test coverage right from the start
+   * building your project to use a modern build tool such as Maven or Gradle rather than Ant, and certainly not an ad-hoc process
+   * except in the special case of "Android Studio", it may NOT be dependent on a "particular" IDE.  It MUST be IDE independent.   (Again, Android Studio is a special).
+   
 If you are interested in writing such a proposal, please talk with your mentor or TA before starting.
 
 Note that we will ONLY BE ACCEPTING ONE PROPOSAL per mentor team.  So we may get more good proposals than we are in a position to accept.
