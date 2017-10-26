@@ -17,7 +17,7 @@ Typo corrections, clarifications and hints will be placed on this page during th
 # WHEN YOU ARE FINISHED
 
 * Please STAY where you are.   
-* Show a "thumbs up" sign to let us know you are done.
+* Show a "thumbs up" sign (&#x1f44d;) to let us know you are done.
 * We'll dismiss folks at 20 minute intervals, to reduce noise and distractions.
 
 
