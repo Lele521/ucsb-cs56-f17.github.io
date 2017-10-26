@@ -23,6 +23,10 @@ Typo corrections, clarifications and hints will be placed on this page during th
 * Show a "thumbs up" sign (&#x1f44d;) to let us know you are done.
 * We'll dismiss folks at 20 minute intervals, to reduce noise and distractions.
 
+<b>Those who are finished</b>
+* We'll allow folks to climb over others at 10:20am.
+* Thanks for being patient until then.
+* We'll then do another instance of that at 10:30am.
 
 <div style="font-size:170%" markdown="1">
 
