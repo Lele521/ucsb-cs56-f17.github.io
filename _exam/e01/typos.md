@@ -16,6 +16,8 @@ Typo corrections, clarifications and hints will be placed on this page during th
 
 <b>Question 4</b>: Please assume that a method `public String getName()` has been added to the `Dog` class you've been given.
 
+<b>UPDATE:</b> You may use that method on other questions on the exam as well, as/when needed.
+
 <b>WHEN YOU ARE FINISHED</b>
 
 * Please STAY where you are.   
