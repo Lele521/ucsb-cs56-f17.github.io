@@ -13,17 +13,18 @@ qtr: F17
 </div>
 
 Typo corrections, clarifications and hints will be placed on this page during the exam.
-# Question 4
 
-Please assume that a method `public String getName()` has been added to the `Dog` class you've been given.
+<b>Question 4</b>: Please assume that a method `public String getName()` has been added to the `Dog` class you've been given.
 
-# WHEN YOU ARE FINISHED
+<b>WHEN YOU ARE FINISHED</b>
 
 * Please STAY where you are.   
 * Write your name/seat/umail at top of p.1,3 and 5.
 * Show a "thumbs up" sign (&#x1f44d;) to let us know you are done.
 * We'll dismiss folks at 20 minute intervals, to reduce noise and distractions.
 
+<b>If the following students are here, please identify yourself to a TA or instructor by raising your hand</b>:
+* Yossi H.
 
 <div style="font-size:170%" markdown="1">
 
