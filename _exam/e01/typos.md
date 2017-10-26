@@ -13,6 +13,9 @@ qtr: F17
 </div>
 
 Typo corrections, clarifications and hints will be placed on this page during the exam.
+# Question 4
+
+Please assume that a method `public String getName()` has been added to the `Dog` class you've been given.
 
 # WHEN YOU ARE FINISHED
 
