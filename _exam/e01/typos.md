@@ -14,6 +14,13 @@ qtr: F17
 
 Typo corrections, clarifications and hints will be placed on this page during the exam.
 
+# WHEN YOU ARE FINISHED
+
+* Please STAY where you are.   
+* Show a "thumbs up" sign to let us know you are done.
+* We'll dismiss folks at 20 minute intervals, to reduce noise and distractions.
+
+
 <div style="font-size:170%" markdown="1">
 
 </div>
