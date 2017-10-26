@@ -3,7 +3,8 @@ layout: examHandoutNoName
 num: e01
 ready: true
 desc: "Legal Cheat Sheet"
-exam_date: 2016-10-19 12:30:00.00-7
+qtr: F17
+exam_date: 2017-10-26 09:30:00.00-7
 ---
 
 <div style="font-size:90%; font-family: Arial Narrow, sans-serif;" markdown="1">
@@ -11,7 +12,7 @@ exam_date: 2016-10-19 12:30:00.00-7
 # class `java.util.ArrayList<E>`
 
 The following excerpts from the javadoc for `java.util.ArrayList<E>` may be
-helpful to you in completing this exam. <br> For hints on `.equals()`, see other side.
+helpful to you in completing this exam. 
 
 ## Inheritance Hierarchy (complete)
 
@@ -94,21 +95,4 @@ only for space reasons)</p>
 </div>
 
 </div>
-
-<h2 class="page-break-before">Hints for `.equals()`</h2>
-
-For summary of `java.util.ArrayList<E>`, see other side.
-
-
-As a reminder, a properly written overridden `.equals()` method:
-
-* Takes an `Object o` as its parameter
-* Returns a `boolean` value
-* Checks each of the following conditions, and for each, returns an appropriate result:
-   * Does `o` refer to the same object as the one on which the .equals method was invoked? 
-   * Is `o` a null reference?
-   * If `o` an instance of some other class, i.e. `getClass() != o.getClass()`
-   * Typecasts `o` to an instance of the current class, and then compares values appropriately.
-
-
 
