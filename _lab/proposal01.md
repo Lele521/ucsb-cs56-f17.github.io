@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: proposal01
-ready: false
+ready: true
 desc: "Proposing a new legacy code project (optional)"
-assigned: 2017-10-25 17:50:00.00-7
-due: 2017-10-30 23:59:00.00-7
+assigned: 2017-10-31 10:45:00.00-7
+due: 2017-11-01 14:00:00.00-7
 ---
 
 # Proposing a new legacy code project
