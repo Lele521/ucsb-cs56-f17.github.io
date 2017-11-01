@@ -4,10 +4,24 @@ desc: "Additional steps you may need to take"
 layout: default
 ---
 
-NOTE: Do not start these steps until your switch to a new legacy project is CONFIRMED and recorded by your mentor in the spreadsheet
-linked to from the main course website.
+# Three ways to switch projects
 
-# Make a new version of {{site.qtr}}\_lab03.md 
+(1) Be assigned a project from the pool of available projects that weren't assigned to anyone.   (The mentors have not yet assembled this list--this page will be updated with those when those are available.)
+
+* PUT THAT LIST HERE
+
+(2) Be assigned one that someone else has abandoned.    That list will appear here once it is clear who is giving up their repo.
+
+* PUT THAT LIST HERE
+
+(3) Propose a new greenfield project.  [Instructions for proposing a new project appear here](/lab/proposal01/)
+
+
+NOTE: Do not start these steps until your switch to a new legacy project is CONFIRMED and recorded by your mentor in the spreadsheet linked to from the main course website.
+
+# If you are taking over a different legacy code project than the one you were initially assigned
+
+## Make a new version of {{site.qtr}}\_lab03.md 
 
 If you are switching to a different legacy code project from the one that you worked on during the initial code review,
 then you should first, for 250 points towards your project points, make a version of the {{site.qtr}}\_lab03.md file 
