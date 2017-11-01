@@ -8,7 +8,10 @@ layout: default
 
 (1) Be assigned a project from the pool of available projects that weren't assigned to anyone.   (The mentors have not yet assembled this list--this page will be updated with those when those are available.)
 
-* PUT THAT LIST HERE
+
+<iframe style="width:100%; height:1400px;  overflow: scroll;"  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQSodNhFk-JaHjPcXTAqSVsw_HNfRyXNv94IB6BDxcW0DFTopT3dEwQlDRh0pWgprC7TBEjPK4grvhD/pubhtml?widget=true&amp;headers=false"></iframe>
+
+
 
 (2) Be assigned one that someone else has abandoned.    That list will appear here once it is clear who is giving up their repo.
 
