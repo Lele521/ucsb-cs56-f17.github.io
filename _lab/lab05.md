@@ -1,14 +1,14 @@
 ---
 layout: lab
 num: lab05
-ready: false
+ready: true
 desc:  "Legacy Code Next Steps"
 assigned: 2017-10-30 14:00:00.00-7
 due: 2017-11-09 17:00:00.00-8
 available-projects-link: "https://ucsb-cs56-f16.github.io/info/projects_alt/"
 legacy-code-first-look-lab: lab03
 legacy-code-first-look-link: /lab/lab03/
-legacy-code-first-look-md-filename: "F16-lab03.md"
+legacy-code-first-look-md-filename: "F17-lab03.md"
 ---
 
 THIS LAB COUNTS TOWARD THE PROJECT POINTS PORTION OF YOUR GRADE, NOT THE LAB PORTION.
