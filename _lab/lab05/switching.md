@@ -38,7 +38,7 @@ You should also be sure that your mentor updates their records of which repo you
 
 It is unlikely that you will be assigned to a different mentor, but if that does happen, due to changes in pair assignments, please make sure your mentor has this updated information.
 
-*Note to mentors:* Please be sure to update whatever pages on the website, spreadsheets, etc. we may be using to track the assignments of students to pairs and legacy code projects, and double check as part of this lab, that all of those are up-to-date.  For example: <https://ucsb-cs56-f16.github.io/info/projects/>
+*Note to mentors:* Please be sure to update whatever pages on the website, spreadsheets, etc. we may be using to track the assignments of students to pairs and legacy code projects, and double check as part of this lab, that all of those are up-to-date.  For example: <https://ucsb-cs56-f17.github.io/info/projects/>
 
 Students: Please have your mentor add a special "issue" to the UCSB-CS56-Projects version of the new repo you are working on for 250 points for completing this new version of the {{site.qtr}}\_lab03.md  file.
 
