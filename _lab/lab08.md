@@ -3,7 +3,7 @@ layout: lab
 num: lab08
 ready: false
 desc: "Recursive Descent Parsing"
-assigned: 2017-11-07 14:00:00.00-8
+assigned: 2017-11-09 14:00:00.00-8
 due: 2017-12-01 23:59:00.00-8
 starter_repo: "https://github.com/UCSB-CS56-F16/lab06_starter_code"
 javadoc_prefix: "https://ucsb-cs56-f16.github.io/lab06_starter_code_javadoc/javadoc/"
