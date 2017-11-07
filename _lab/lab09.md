@@ -3,7 +3,7 @@ layout: lab
 num: lab09
 ready: false
 desc: "Wrapping up your legacy code project (leaving a legacy)"
-assigned: 2017-11-30 14:00:00.00-8
+assigned: 2017-11-29 14:00:00.00-8
 due: 2017-12-06 05:50:00.00-8
 ---
 
