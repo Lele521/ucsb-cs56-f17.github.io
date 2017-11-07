@@ -4,9 +4,10 @@ num: lab07
 ready: true
 desc: "Finishing up your legacy code project"
 assigned: 2017-11-09 14:00:00.00-8
-due: 2017-11-20 23:59:00.00-8
+due: 2017-11-28 23:59:00.00-8
 ---
 
+Note the due date: you should have finished the work and made all of the pull requests BEFORE you come to lab in week 9.
 
 THIS LAB COUNTS TOWARD THE FINAL 500 PROJECT POINTS PORTION OF YOUR GRADE, NOT THE LAB PORTION.
 
