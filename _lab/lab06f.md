@@ -3,8 +3,8 @@ layout: lab
 num: lab06f
 ready: false
 desc: "CONSULT WITH YOUR MENTOR about lab05, lab07"
-assigned: 2017-11-17 14:00:00.00-8
-due: 2017-11-17 19:00:00.00-8
+assigned: 2017-11-08 14:00:00.00-8
+due: 2017-11-08 17:50:00.00-8
 ---
 
 THERE IS NOTHING TO SUBMIT FOR THIS LAB.
