@@ -1,6 +1,6 @@
 ---
 layout: lab
-num: lab08
+num: lab06f
 ready: false
 desc: "CONSULT WITH YOUR MENTOR about lab05, lab07"
 assigned: 2017-11-17 14:00:00.00-8
