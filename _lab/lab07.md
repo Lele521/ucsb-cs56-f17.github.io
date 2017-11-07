@@ -1,6 +1,6 @@
 ---
 layout: lab
-num: lab06
+num: lab07
 ready: true
 desc: "Finishing up your legacy code project"
 assigned: 2017-11-09 14:00:00.00-8
