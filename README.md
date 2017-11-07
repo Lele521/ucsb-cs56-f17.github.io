@@ -1,4 +1,6 @@
 
+# ucsb-cs56-f17-exams
+
 # ucsb-cs56-f17.github.io
 https://ucsb-cs56-f17.github.io
 
@@ -12,4 +14,5 @@ To test locally:
 * From then on, to test the site locally:
     * Run `./jekyll.sh
     * Point browser to localhost:4000
+
 
