@@ -1,6 +1,6 @@
 ---
 layout: lab
-num: lab06
+num: lab07
 ready: false
 desc: "Recursive Descent Parsing"
 assigned: 2017-11-07 14:00:00.00-8
@@ -27,7 +27,7 @@ course_github_organization: UCSB-CS56-F16
 </style>
 
 <p style="display:none">
-http://ucsb-cs56-f16.github.io/lab/lab06
+http://ucsb-cs56-f16.github.io/lab/lab07a
 </p>
 
 
