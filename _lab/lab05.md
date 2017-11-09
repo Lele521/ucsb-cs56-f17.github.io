@@ -4,7 +4,7 @@ num: lab05
 ready: true
 desc:  "Legacy Code Next Steps"
 assigned: 2017-11-01 14:00:00.00-7
-due: 2017-11-09 17:00:00.00-8
+due: 2017-11-12 11:59:00.00-8
 available-projects-link: "https://ucsb-cs56-f17.github.io/info/projects_alt/"
 legacy-code-first-look-lab: lab03
 legacy-code-first-look-link: /lab/lab03/
