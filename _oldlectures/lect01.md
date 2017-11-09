@@ -7,7 +7,7 @@ date: 2017-09-26 12:30:00.00-7:00
 
 This lecture was mostly an orientation to what the course is about.
 
-The syllabus is here:  <https://ucsb-cs56-f17.github.io/info/syllabus/>
+The syllabus is here:  <https://ucsb-cs56-f16.github.io/info/syllabus/>
 
 And the set of tutorials that we'll start with to learn Java is here:
 

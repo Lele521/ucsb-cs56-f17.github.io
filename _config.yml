@@ -80,6 +80,10 @@ collections:
     output: true
     permalink: /lectures/:path/
 
+  oldlectures:
+    output: true
+    permalink: /oldlectures/:path/
+
 
 
 defaults:

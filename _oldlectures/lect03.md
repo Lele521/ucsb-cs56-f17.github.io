@@ -5,6 +5,14 @@ ready: false
 date: 2017-10-03 12:30:00.00-7:00
 ---
 
+# If you have notes from this lecture
+
+... please consider posting a summary to Piazza.
+
+I generally recall that we discussed material from the links below during this lecture, but I don't have
+a record of exactly which topics were covered.
+
+# General idea of what was covered
 
 Topics for this lecture were taken from material about git/github here:
 

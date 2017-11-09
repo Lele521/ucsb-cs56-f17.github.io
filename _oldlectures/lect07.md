@@ -1,13 +1,14 @@
 ---
-num: "Lecture 6"
-desc: ""
+num: "Lecture 7"
+desc: "Review for Midterm Exam E01"
 ready: false
-date: 2017-10-12 12:30:00.00-7:00
+date: 2017-10-17 12:30:00.00-7:00
 ---
 
 Today will be primarily focused on Exam Review
 
 * [Study guide for Midterm Exam E01](/exam/e01/)
+
 
 
 # Practice Question on Garbage Collection

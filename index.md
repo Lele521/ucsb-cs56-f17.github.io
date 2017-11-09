@@ -34,3 +34,8 @@ title: CS56, Fall 2017, pconrad
 <h2 id="teams">Lectures</h2>
 {%include lectures_table.html %}
 </div>
+
+<div data-role="collapsible" data-collapsed="false">
+<h2 id="teams">Lectures from Fall 2016</h2>
+{%include old_lectures_table.html %}
+</div>
