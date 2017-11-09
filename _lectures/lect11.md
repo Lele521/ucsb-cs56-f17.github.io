@@ -19,7 +19,7 @@ To find classes that have a main method, use the `grep` command with `-r` (recur
 directory:
 
 ```
-grep -r `public static void main` src
+grep -r 'public static void main' src
 ```
 
 Then:
