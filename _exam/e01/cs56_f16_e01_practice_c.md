@@ -3,7 +3,7 @@ layout: exam
 num: e01c
 ready: true
 desc: "Practice Midterm Exam 'C' "
-exam_date: 2016-10-19 12:30:00.00-7
+exam_date: 2017-11-14 09:30:00.00-8
 ---
 
 Note: This is not a "complete" 100 point practice exam.  It has one or more sample problems for us
@@ -12,40 +12,6 @@ to practice with in lecture.   You can check your answers with the code in [this
 [For a full 100 point practice exam, click here.](/exam/e01/cs56_m16_e01_practice/){:data-ajax="false"}.
 
 <ol>
-
-<li markdown="1" style="margin-bottom:8em;">
-
-(20 pts) For practice exam purposes: This exercise is a variation on the exercise on p. 266 in HFJ.  The answer to that one appears in the book, so I suggest you try that one first, then check your answer before attempting this problem.
-
-On the [handout](handout) there is some code.    Your job: figure out after which line of main() each of the following objects is eligible for garbage collection. 
-
-If an object is still not eligible for garbage collection when the last line of main is reached, write "never".    Your answer should be one of the line numbers that appears in the left hand column (e.g. `1`, `2`, `3`, etc.) or the single word "never". 
-
-Hint (which you won't get on the exam): objects that are referred to by references that are static data memembers are "never" eligible for garbage collection (except in highly unusual circumstances that don't apply here.)
-
-<style>
- .fill-in-blanks-smaller table {
-   width: 60%;
- }
- .fill-in-blanks-smaller table * td {
-    margin: 1em 1em 1em 1em;
-    padding: 1em 2em 2em 2em;
- }
-</style>
-<div class="fill-in-blanks-smaller" markdown="1">
-
-| Object         | Fill in line  here |
-|----------------|--------------------|
-| (a) `Fido`     |                    |
-| (b) `Rover`    |                    |
-| (c) `Princess` |                    |
-| (d) `Spot`     |                    |
-| (e) `Snoopy`   |                    |
-
-</div>
-
-</li>
-
 
 <li markdown="1" class="page-break-before">  (Problem 12 from CS56 W12 Midterm 2) For this question, you need the additional  [handout](handout) with code for these files: `Book.java`, `Product.java`, `Shippable.java`, `Song.java`.
 
