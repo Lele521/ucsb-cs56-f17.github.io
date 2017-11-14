@@ -6,3 +6,5 @@ date: 2017-11-14 09:30:00.00-7:00
 ---
 
 See: <https://ucsb-cs56-f17.github.io/exam/e02/>
+
+Practice question:  <https://ucsb-cs56-f17.github.io/exam/e01/cs56_f16_e01_practice_c/>
