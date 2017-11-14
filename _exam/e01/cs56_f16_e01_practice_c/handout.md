@@ -5,6 +5,9 @@ ready: true
 desc: "Handout for Practice Exam 'e01c'"
 exam_date: 2016-10-17 12:30:00.00-7
 ---
+<div style="display:none;">
+https://ucsb-cs56-f17.github.io/exam/e01/cs56_f16_e01_practice_c/handout/
+</div>
 
 <h2>CODE FOR QUESTION 1</h2>
 
