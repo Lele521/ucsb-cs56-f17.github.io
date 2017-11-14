@@ -68,5 +68,5 @@ You will lose two points each time you striking a line that is not bogus, and yo
 </ol>
 
 <div style="display:none;">
-https://github.com/UCSB-CS56-F17/ucsb-cs56-f17.github.io/blob/master/_exam/e01/cs56_f16_e01_practice_c.md
+https://ucsb-cs56-f17.github.io/exam/e01/cs56_f16_e01_practice_c/
 </div>
