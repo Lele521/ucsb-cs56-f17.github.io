@@ -1,5 +1,5 @@
 ---
-layout: examHandout
+layout: handout
 num: e01c
 ready: true
 desc: "Handout for Practice Exam 'e01c'"
