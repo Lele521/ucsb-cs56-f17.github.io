@@ -15,9 +15,9 @@ to practice with in lecture.   You can check your answers with the code in [this
 
 <ol>
 
-<li markdown="1" class="page-break-before">  (Problem 12 from CS56 W12 Midterm 2) For this question, you need the additional  [handout](handout) with code for these files: `Book.java`, `Product.java`, `Shippable.java`, `Song.java`.
+<li markdown="1" class="page-break-before">  (Problem 12 from CS56 W12 Midterm 2) For this question, you need the additional  [handout](handout/) with code for these files: `Book.java`, `Product.java`, `Shippable.java`, `Song.java`.
 
-You may assume that all of the code for Question 2 on the  [handout](handout) compiles—I've checked that this is true. Now consider the code for the `Q2` class below, which does contain some errors, and as a result, will NOT compile.
+You may assume that all of the code for Question 2 on the  [handout](handout/) compiles—I've checked that this is true. Now consider the code for the `Q2` class below, which does contain some errors, and as a result, will NOT compile.
 
 Please do these things with this "broken" code for the Q2 class:
 
