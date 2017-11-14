@@ -9,6 +9,7 @@ available-projects-link: "https://ucsb-cs56-f17.github.io/info/projects_alt/"
 legacy-code-first-look-lab: lab03
 legacy-code-first-look-link: /lab/lab03/
 legacy-code-first-look-md-filename: "F17-lab03.md"
+last_before: "Midterm E02"
 ---
 
 THIS LAB COUNTS TOWARD THE PROJECT POINTS PORTION OF YOUR GRADE, NOT THE LAB PORTION.
