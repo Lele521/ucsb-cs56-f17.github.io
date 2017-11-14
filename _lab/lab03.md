@@ -5,7 +5,7 @@ ready: true
 desc: "First look at Legacy Code"
 assigned: 2017-10-18 14:00:00.00-7
 due: 2017-10-26 23:59:00.00-7
-last_before: Midterm Exam
+last_before: "Midterm Exam E01"
 gauchospace_link: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=938517
 mdname: F17_lab03
 ---
