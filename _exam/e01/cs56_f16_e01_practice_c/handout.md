@@ -55,84 +55,85 @@ public class Dog {
 
 <h2 class="page-break-before">Code for Question 2</h2>
 
-Note: Line numbers are not part of the code. They are only there for reference.
-
 <div style="font-size:80%;">
 
 ## Product.java
-```java
-1	/** something that can be sold */
-2	public abstract class Product {
-3
-4	/** get the price (in cents) */
-5	public abstract int getPrice();
-6
-7	}
-```
+
+{% highlight java linenos %}
+
+	/** something that can be sold */
+	public abstract class Product {
+
+	/** get the price (in cents) */
+	public abstract int getPrice();
+
+	}
+{% endhighlight %}
 
 ## Shippable.java
 
-```java
-1	/** something that can be shipped */
-2	public interface Shippable {
-3
-4	/** get the shipping weight in pounds */
-5	public double getWeight();
-6	}
-```
+{% highlight java linenos %}
+	/** something that can be shipped */
+	public interface Shippable {
+
+	/** get the shipping weight in pounds */
+	public double getWeight();
+	}
+{% endhighlight %}
+
 
 ## Book.java
 
-```java
-1	/** A Book */
-2	public class Book extends Product implements Shippable {
-3
-4	private int price;
-5	private double weight;
-6	private String author;
-7	private String title;
-8
-9	public Book(String author, String title, int price,
-10	double weight) {
-11	this.author = author;
-12	this.title = title;
-13	this.price = price;
-14	this.weight = weight;
-15	}
-16
-17	public int getPrice() {return this.price;}
-18	public String getTitle() {return this.title;}
-19	public String getAuthor() {return this.author;}
-20	public double getWeight() {return this.weight;}
-21
-22	}
-```
+{% highlight java linenos %}
+/** A Book */
+public class Book extends Product implements Shippable {
+
+  private int price;
+  private double weight;
+  private String author;
+  private String title;
+
+  public Book(String author, String title, int price,
+      double weight) {
+    this.author = author;
+    this.title = title;
+    this.price = price;
+    this.weight = weight;
+  }
+
+  public int getPrice() {return this.price;}
+  public String getTitle() {return this.title;}
+  public String getAuthor() {return this.author;}
+  public double getWeight() {return this.weight;}
+}
+{% endhighlight %}
+
 
 ## Song.java
 
-```java
-1	/** A downloadable Song */
-2	public class Song extends Product {
-3
-4	private int price;
-5	private String artist;
-6	private String title;
-7
-8	public Song(String artist, String title, int price) {
-9	this.artist = artist;
-10	this.title = title;
-11	this.price = price;
-12	}
-13
-14	public Song(String artist, String title) {
-15	this(artist,title,99);
-16	}
-17
-18	public int getPrice() {return this.price;}
-19	public String getTitle() {return this.title;}
-20	public String getArtist() {return this.artist;}
-21
-22	}
-```
+{% highlight java linenos %}
+/** A downloadable Song */
+public class Song extends Product {
+
+  private int price;
+  private String artist;
+  private String title;
+
+  public Song(String artist, String title, int price) {
+    this.artist = artist;
+    this.title = title;
+    this.price = price;
+  }
+
+  public Song(String artist, String title) {
+    this(artist,title,99);
+  }
+
+  public int getPrice() {return this.price;}
+  public String getTitle() {return this.title;}
+  public String getArtist() {return this.artist;}
+
+}
+{% endhighlight %}
 
 </div>
