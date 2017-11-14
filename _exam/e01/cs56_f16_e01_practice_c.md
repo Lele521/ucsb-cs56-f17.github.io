@@ -1,10 +1,12 @@
 ---
-layout: exam
+layout: handout
 num: e01c
 ready: true
 desc: "Practice Midterm Exam 'C' "
 exam_date: 2017-11-14 09:30:00.00-8
 ---
+
+# F17, E02: Practice Midterm Exam 'C' 
 
 Note: This is not a "complete" 100 point practice exam.  It has one or more sample problems for us
 to practice with in lecture.   You can check your answers with the code in [this repo](https://github.com/UCSB-CS56-F16/lectureNotes_10.17)
