@@ -17,8 +17,10 @@ http://ucsb-cs56-f17.github.io/exam/e02/typos/
 </div>
 
 On Question 7, it says "assume the method for question 4 and 5 works".
+* THAT SHOULD BE: assume the method from question 6 works.
 
-THAT SHOULD BE: assume the method from question 6 works.
+On Question 8 is says: "passing in an object that implements `Comparator<ArrayList>`
+* THAT SHOULD BE: "passing in an object that implements `Comparator<Student>`
 
 ## When you are finished... stay at your seat 
 
