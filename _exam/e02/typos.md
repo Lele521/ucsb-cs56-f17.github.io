@@ -16,6 +16,10 @@ http://ucsb-cs56-f17.github.io/exam/e02/typos/
 * Please hold up your pink sheet with one hand, and give us the "thumbs up" sign with the other.  
 * Every 10-15 minutes we'll invite students to come forward.
 * This minimizes disruption to other students.
+* In the meantime, check that you:
+   * Put your name, umail, seat number on p.1,3,5
+   * Put your name on your pink sheet and your notes sheet.
+   * Be prepared to hand in everything.
 
 <b >Typo corrections and hints for {{site.qtr}} exam {{page.num}}</b>
 
