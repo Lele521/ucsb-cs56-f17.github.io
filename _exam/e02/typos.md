@@ -13,8 +13,14 @@ http://ucsb-cs56-f17.github.io/exam/e02/typos/
 </div>
 
 <div style="clear:both;" markdown="1">
-## When you are finished... stay at your seat 
+## Typo corrections and hints for {{site.qtr}} exam {{page.num}}</b>
 </div>
+
+On Question 7, it says "assume the method for question 4 and 5 works".
+
+THAT SHOULD BE: assume the method from question 6 works.
+
+## When you are finished... stay at your seat 
 
 * Please hold up your pink sheet with one hand, and give us the "thumbs up" sign with the other.  
 * Every 10-15 minutes we'll invite students to come forward.
@@ -24,8 +30,4 @@ http://ucsb-cs56-f17.github.io/exam/e02/typos/
    * Put your name on your pink sheet and your notes sheet.
    * Be prepared to hand in everything.
 
-<b >Typo corrections and hints for {{site.qtr}} exam {{page.num}}</b>
 
-On Question 7, it says "assume the method for question 4 and 5 works".
-
-THAT SHOULD BE: assume the method from question 6 works.
