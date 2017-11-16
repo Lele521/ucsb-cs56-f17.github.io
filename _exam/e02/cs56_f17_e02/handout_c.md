@@ -8,7 +8,7 @@ qtr: F17
 
 <h1>Handout C</h1>
 
-<h2>`Student.java` for questions 5,6,7,8,9,10</h2>
+<h2>`Student.java` for questions 6,7,8 (pages 4,5,6)</h2>
 
 A partial listing of the code for `Student.java` appears below.
 
