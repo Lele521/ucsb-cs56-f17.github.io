@@ -13,7 +13,7 @@ http://ucsb-cs56-f17.github.io/exam/e02/typos/
 </div>
 
 <div style="clear:both;" markdown="1">
-## Typo corrections and hints for {{site.qtr}} exam {{page.num}}</b>
+## Typo corrections and hints for {{site.qtr}} exam {{page.num}}
 </div>
 
 On Question 7, it says "assume the method for question 4 and 5 works".
