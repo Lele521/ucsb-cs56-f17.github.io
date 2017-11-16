@@ -26,4 +26,6 @@ http://ucsb-cs56-f17.github.io/exam/e02/typos/
 
 <b >Typo corrections and hints for {{site.qtr}} exam {{page.num}}</b>
 
+On Question 7, it says "assume the method for question 4 and 5 works".
 
+THAT SHOULD BE: assume the method from question 6 works.
