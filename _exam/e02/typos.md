@@ -12,7 +12,10 @@ exam_end: "2017-11-16 10:45:00 -0800"
 http://ucsb-cs56-f17.github.io/exam/e02/typos/
 </div>
 
+<div style="clear:both;" markdown="1">
 ## When you are finished... stay at your seat 
+</div>
+
 * Please hold up your pink sheet with one hand, and give us the "thumbs up" sign with the other.  
 * Every 10-15 minutes we'll invite students to come forward.
 * This minimizes disruption to other students.
