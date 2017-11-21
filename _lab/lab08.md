@@ -5,8 +5,10 @@ ready: false
 desc: "Recursive Descent Parsing"
 assigned: 2017-11-17 13:00:00.00-8
 due: 2017-12-01 23:59:00.00-8
-starter_repo: "https://github.com/UCSB-CS56-F16/lab06_starter_code"
-javadoc_prefix: "https://ucsb-cs56-f16.github.io/lab06_starter_code_javadoc/javadoc/"
+old_starter_repo: "https://github.com/UCSB-CS56-F16/lab06_starter_code"
+starter_repo: "https://github.com/UCSB-CS56-F17/parsing-starter-01"
+old_javadoc_prefix: "https://ucsb-cs56-f16.github.io/lab06_starter_code_javadoc/javadoc/"
+javadoc_prefix: "https://ucsb-cs56-f17.github.io/parsing-starter-01/docs/javadoc/"
 tutorial_repo: "https://ucsb-cs56-pconrad.github.io/tutorials/parsing/"
 submit_cs_link: "https://submit.cs.ucsb.edu/form/project/598/submission"
 submit_cs_join_groups: "https://submit.cs.ucsb.edu/p/598/group"
@@ -50,8 +52,12 @@ The remainder of this writeup assumes that you have thoroughly read and understo
 
 The starter code for this assignment, and javadoc that goes along with it is here:
 
-* <{{page.starter_repo}}>
-* <a href="{{page.javadoc_prefix}}" data-ajax="false">{{page.javadoc_prefix}}</a>
+* OLD VERSION: 
+  * <{{page.starter_repo}}>
+  * <a href="{{page.javadoc_prefix}}" data-ajax="false">{{page.javadoc_prefix}}</a>
+* NEW VERSION:
+  * <{{page.old_starter_repo}}>
+  * <a href="{{page.javadoc_prefix}}" data-ajax="false">{{page.javadoc_prefix}}</a>
 
 Don't do anything with the starter code yet other than just look at it&mdash;there is a specific way that you'll set up your repo for this assignment and pull that starter code in, and instructions on that appear later in this lab description.  At this point, I'm just giving you the link so that you can refer to the repo as you read these instructions.
 
