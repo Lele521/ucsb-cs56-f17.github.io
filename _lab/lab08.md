@@ -52,12 +52,12 @@ The remainder of this writeup assumes that you have thoroughly read and understo
 
 The starter code for this assignment, and javadoc that goes along with it is here:
 
-* OLD VERSION: 
+* NEW VERSION: 
   * <{{page.starter_repo}}>
   * <a href="{{page.javadoc_prefix}}" data-ajax="false">{{page.javadoc_prefix}}</a>
-* NEW VERSION:
+* OLD VERSION:
   * <{{page.old_starter_repo}}>
-  * <a href="{{page.javadoc_prefix}}" data-ajax="false">{{page.javadoc_prefix}}</a>
+  * <a href="{{page.old_javadoc_prefix}}" data-ajax="false">{{page.old_javadoc_prefix}}</a>
 
 Don't do anything with the starter code yet other than just look at it&mdash;there is a specific way that you'll set up your repo for this assignment and pull that starter code in, and instructions on that appear later in this lab description.  At this point, I'm just giving you the link so that you can refer to the repo as you read these instructions.
 
