@@ -592,3 +592,51 @@ Unmerged paths:
 ```
    
    We see that we need to edit `DefaultTokenFactory.java`.
+
+2.  Edit the file(s) that need to be merged.  Look for the `<<<<<` `====`, `>>>>>` lines that mark the "before and after" sections.   Decide what lines to keep, and what to delete, and then delete the  `<<<<<` `====`, `>>>>>` markers.
+
+3.  Do `git status` again.  The important part of the output is this.  If you don't see this output, then you may still
+have other merge conflicts to fix.
+
+```
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+```
+
+But if you do that get that, it's time to do `git commit` to finish the merge.
+
+Here's the full output.
+
+```
+169-231-160-151:lab08_cgaucho_kdelplaya pconrad$ git status
+On branch master
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+	modified:   README.md
+	modified:   docs/index.md
+	modified:   src/main/java/edu/ucsb/cs56/pconrad/parsing/tokenizer/DefaultTokenFactory.java
+	modified:   src/main/java/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenFactory.java
+	new file:   src/test/java/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenizerAddonsTest.java
+
+169-231-160-151:lab08_cgaucho_kdelplaya pconrad$ 
+```
+
+4.  Final step: `git commit...` and `git push origin master`
+
+```
+169-231-160-151:lab08_cgaucho_kdelplaya pconrad$ git commit -m "fix merge confict for bringing in parsing-starter-02"
+[master a2add75] fix merge confict for bringing in parsing-starter-02
+169-231-160-151:lab08_cgaucho_kdelplaya pconrad$ git push origin master
+Counting objects: 432, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (83/83), done.
+Writing objects: 100% (432/432), 63.26 KiB | 63.26 MiB/s, done.
+Total 432 (delta 267), reused 418 (delta 261)
+remote: Resolving deltas: 100% (267/267), completed with 53 local objects.
+To github.com:UCSB-CS56-F17/lab08_cgaucho_kdelplaya.git
+   3c3de76..a2add75  master -> master
+169-231-160-151:lab08_cgaucho_kdelplaya pconrad$ 
+```
