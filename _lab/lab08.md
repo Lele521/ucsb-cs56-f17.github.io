@@ -3,8 +3,8 @@ layout: lab
 num: lab08
 ready: false
 desc: "Recursive Descent Parsing"
-assigned: 2017-11-17 13:00:00.00-8
-due: 2017-12-01 23:59:00.00-8
+assigned: 2017-11-28 09:30:00.00-8
+due: 2017-12-08 17:00:00.00-8
 
 parsing_starter_01: "https://github.com/UCSB-CS56-F17/parsing-starter-01"
 parsing_starter_02: "https://github.com/UCSB-CS56-F17/parsing-starter-02"
