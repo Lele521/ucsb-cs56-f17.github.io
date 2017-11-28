@@ -41,8 +41,15 @@ course_github_organization: UCSB-CS56-F17
 http://ucsb-cs56-f17.github.io/lab/lab08/
 </div>
 
+# Notes
 
-# Summary #
+* This lab may be done individually or in pairs
+* This lab does not require much actual coding, but it does require a lot of reading of both text and code in order to understand what code to write.  
+* This lab is in three phases, and it will help if you leave yourself at least three work sessions to do it (don't try to do it all on the last day before it's due.)
+* The final deadline, 5pm on Friday of dead week, is STRICT, out of a concern for having the work leaking into final exam preparation, and a need to wrap up other grading before the final exam.
+* The submit.cs link is coming soon---we are refactoring it to be more generous with extra credit.
+
+# Summary 
 
 In this assignment, you will add some features to an existing parser
 and interpreter of arithmetic expressions.
