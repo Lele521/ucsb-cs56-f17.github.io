@@ -403,6 +403,14 @@ When all tests are passing, you are almost ready to try submission on submit.cs.
 
 ## Submitting ##
 
+<div class="tip" markdown="1">
+# The submit.cs link is coming soon
+
+I'm refactoring the submit.cs tests to try to help you get more partial credit.
+
+The previous version was pretty much "all or nothing", which isn't as helpful as I'd like it to be for folks that manage to get at least part of the assignment complete.  I'd like the new version to be able to give partial credit in cases where the code at least successfully passes, for example, some or all of the tokenizer tests.   
+</div>
+
 You'll submit via submit.cs here: {{ page.submit_cs_link }}
 
 In contrast to some of your previous submissions, you should **not** make a publicly accessible Javadoc for your code.
