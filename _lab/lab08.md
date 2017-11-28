@@ -197,9 +197,9 @@ generated from the `parsing-starter-04` code.
 
    <div>
    <code>git remote add parsing-starter-01 {{page.parsing_starter_01}}</code><br>
-   <code>git remote add parsing-starter-02 {{page.parsing_starter_01}}</code><br>
-   <code>git remote add parsing-starter-03 {{page.parsing_starter_01}}</code><br>
-   <code>git remote add parsing-starter-04 {{page.parsing_starter_01}}</code><br>
+   <code>git remote add parsing-starter-02 {{page.parsing_starter_02}}</code><br>
+   <code>git remote add parsing-starter-03 {{page.parsing_starter_03}}</code><br>
+   <code>git remote add parsing-starter-04 {{page.parsing_starter_04}}</code><br>
    </div>
 
 6. Do the following command to pull the initial starter code into your empty repo:
