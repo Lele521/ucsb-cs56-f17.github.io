@@ -541,6 +541,54 @@ http://ucsb-cs56-f17.github.io/lab/lab08/
 </div>
 
 
+# Appendix: Dealing with  merge conflicts 
 
+You may get merge conflicts with you pull from parsing-starter-02
 
+```
+169-231-160-151:lab08_cgaucho_kdelplaya pconrad$ git pull parsing-starter-02 master
+remote: Counting objects: 465, done.
+remote: Compressing objects: 100% (141/141), done.
+remote: Total 465 (delta 299), reused 403 (delta 239), pack-reused 0
+Receiving objects: 100% (465/465), 71.26 KiB | 503.00 KiB/s, done.
+Resolving deltas: 100% (299/299), completed with 84 local objects.
+From https://github.com/UCSB-CS56-F17/parsing-starter-02
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> parsing-starter-02/master
+Auto-merging src/main/java/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenFactory.java
+Auto-merging src/main/java/edu/ucsb/cs56/pconrad/parsing/tokenizer/DefaultTokenFactory.java
+CONFLICT (content): Merge conflict in src/main/java/edu/ucsb/cs56/pconrad/parsing/tokenizer/DefaultTokenFactory.java
+Automatic merge failed; fix conflicts and then commit the result.
+169-231-160-151:lab08_cgaucho_kdelplaya pconrad$ 
+```
 
+Here's what you do to fix this:
+
+1.  Type `git status`
+
+   This will show you, in case the output has gotten lost on your screen, which files have merge conflicts.
+   
+   169-231-160-151:lab08_cgaucho_kdelplaya pconrad$ git status
+
+```
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+	modified:   README.md
+	modified:   docs/index.md
+	modified:   src/main/java/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenFactory.java
+	new file:   src/test/java/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenizerAddonsTest.java
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   src/main/java/edu/ucsb/cs56/pconrad/parsing/tokenizer/DefaultTokenFactory.java
+
+169-231-160-151:lab08_cgaucho_kdelplaya pconrad$ 
+```
+   
+   We see that we need to edit `DefaultTokenFactory.java`.
