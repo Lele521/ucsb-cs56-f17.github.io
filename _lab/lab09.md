@@ -9,10 +9,9 @@ due: 2017-12-06 05:50:00.00-8
 
 This lab counts 300 points towards your lab grade.
 
-This lab MUST BE DONE IN PERSON WITH YOUR MENTOR.   Your best opportunity to do that is Thursday Dec 01, 
-during the Thursday of Week 10.
+This lab MUST BE DONE IN PERSON WITH YOUR MENTOR.   Your best opportunity to do that is the Week 10 lab section time.
 
-If you can't be in lab that night, and/or want to do it sooner, then if your mentor is wiling to meet you
+If you can't be in lab that afternoon, and/or want to do it sooner, then if your mentor is wiling to meet you
 in person to do it, you may arrange a time to complete it earlier than that, but only 
 * AFTER YOU HAVE COMPLETED ALL YOUR WORK for lab05/lab07 (the legacy code project) 
 * AFTER YOU HAVE SUBMITTED YOUR FINAL PULL REQUEST FOR THE QUARTER for your legacy code project.
