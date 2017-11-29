@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab09
-ready: false
+ready: true
 desc: "Wrapping up your legacy code project (leaving a legacy)"
 assigned: 2017-11-29 14:00:00.00-8
 due: 2017-12-06 05:50:00.00-8
@@ -77,4 +77,4 @@ To complete this lab, and be DONE with the legacy code project, you need to do E
     * Each issue must have an <tt>"{{site.qtr}} OK"</tt> comment from a mentor (comments from previous quarters do not count.)
     * Any issue not ok'd by mentor by the due date/time of this lab DOES NOT COUNT.
     * The issues *do not count* unless they are linked to in a <tt>{{site.qtr}}_{{page.num}}.md</tt> file with the list of issues for the next CS56 class of students.
-    *  There should be a pull request for these changes to the `README.md` and <tt>{{site.qtr}}_{{page.num}}.md</tt> file. (This could be a pre-existing current outstanding pull request for your lab07 work, or separate final "lab10" pull request.
+    *  There should be a pull request for these changes to the `README.md` and <tt>{{site.qtr}}_{{page.num}}.md</tt> file. (This could be a pre-existing current outstanding pull request for your lab07 work, or separate final "{{page.num}}" pull request.
