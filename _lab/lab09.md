@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab09
-ready: false
+ready: true
 desc: "Wrapping up your legacy code project (leaving a legacy)"
 assigned: 2017-11-29 14:00:00.00-8
 due: 2017-12-06 05:50:00.00-8
@@ -9,10 +9,9 @@ due: 2017-12-06 05:50:00.00-8
 
 This lab counts 300 points towards your lab grade.
 
-This lab MUST BE DONE IN PERSON WITH YOUR MENTOR.   Your best opportunity to do that is Thursday Dec 01, 
-during the Thursday of Week 10.
+This lab MUST BE DONE IN PERSON WITH YOUR MENTOR.   Your best opportunity to do that is the Week 10 lab section time.
 
-If you can't be in lab that night, and/or want to do it sooner, then if your mentor is wiling to meet you
+If you can't be in lab that afternoon, and/or want to do it sooner, then if your mentor is wiling to meet you
 in person to do it, you may arrange a time to complete it earlier than that, but only 
 * AFTER YOU HAVE COMPLETED ALL YOUR WORK for lab05/lab07 (the legacy code project) 
 * AFTER YOU HAVE SUBMITTED YOUR FINAL PULL REQUEST FOR THE QUARTER for your legacy code project.
@@ -39,15 +38,15 @@ To complete this lab, and be DONE with the legacy code project, you need to do E
     
     These may be issues that you came up with, or they may be issues
     left over from ones you mentor added, or a combination.   Regardless
-    of how the issues got there, there should be at least 500 points
+    of how the issues got there, there should be at least `500` points
     worth of them.
 
     Note, however that for issues to count towards the 500 points,
-    they must have a "F16 OK" comment from your mentor, another mentor,
-    a TA or an instructor.  Leftover "M16 OK" or "W16 OK" comments do not count.
-    And you MUST be in lab IN PERSON to get this "OK". (See below).
+    they must have a <tt>"{{site.qtr}} OK"</tt>  comment from your mentor, another mentor,
+    a TA or an instructor.  Leftover `"M16 OK"` or `"W16 OK"` comments do not count.
+    And you MUST be in lab IN PERSON to get this `"OK"`. (See below).
     
-    If you don't get this OK by 6:50pm on Thursday December 01, then
+    If you don't get this OK by {{page.due}} then
     the points don't count.
     
 # Additional Notes    
@@ -68,13 +67,14 @@ To complete this lab, and be DONE with the legacy code project, you need to do E
      out of luck&mdash;they have no obligation to accomodate your
      schedule.)
 
-     Make sure that your mentor has signed off with an "F16 OK" comment
+     Make sure that your mentor has signed off with an <tt>"{{site.qtr}} OK"</tt> comment
      on each issue that you are planning to count towards this 500.
      
-= Grading =
+# Grading
 
-* (50 pts): README.md note to next set of students.
+* (50 pts): `README.md` note to next set of students.  
 * (250 pts): 500 points of issues remaining for the next generation of students on the main fork of your legacy code project.
-    * Each issue must have an OK from a {{site.qtr}} mentor.
+    * Each issue must have an <tt>"{{site.qtr}} OK"</tt> comment from a mentor (comments from previous quarters do not count.)
     * Any issue not ok'd by mentor by the due date/time of this lab DOES NOT COUNT.
-    * The issues do not count unless they are linked to in a <tt>{{site.qtr}}_{{page.num}}.md</tt> file with the list of issues for the next CS56 class of students.
+    * The issues *do not count* unless they are linked to in a <tt>{{site.qtr}}_{{page.num}}.md</tt> file with the list of issues for the next CS56 class of students.
+    *  There should be a pull request for these changes to the `README.md` and <tt>{{site.qtr}}_{{page.num}}.md</tt> file. (This could be a pre-existing current outstanding pull request for your lab07 work, or separate final "{{page.num}}" pull request.
