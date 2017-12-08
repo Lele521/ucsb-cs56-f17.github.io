@@ -640,3 +640,188 @@ To github.com:UCSB-CS56-F17/lab08_cgaucho_kdelplaya.git
    3c3de76..a2add75  master -> master
 169-231-160-151:lab08_cgaucho_kdelplaya pconrad$ 
 ```
+
+# ADDITIONAL HINTS (Friday, December 8, 11:15am)
+
+## Tokenizing Steps:
+
+1. Realize that the error output you get will be a bit misleading at first.
+
+   Consider this test:
+
+   ```
+     @Test
+     public void testGtExpression() {
+	assertArrayEquals(new Token[] { tf.makeIntToken("12"),
+					tf.makeGreaterThanToken(),
+					tf.makeIntToken("13") },
+	    Tokenizer.tokenizeToArray("12 > 13"));
+    }
+   ```
+
+   And consider the stub code that makes this compile:
+
+   ```
+     public Token makeGreaterThanToken() { return new ErrorToken("stub"); }
+
+   ```
+
+   That results in the following test failure output:
+
+   ```
+    Testcase: testGtExpression(edu.ucsb.cs56.pconrad.parsing.tokenizer.TokenizerAddonsTest):	FAILED
+    arrays first differed at element [1]; expected:<ErrorToken(stub)> but was:<ErrorToken(>)>
+    junit.framework.AssertionFailedError: arrays first differed at element [1]; expected:<ErrorToken(stub)> but was:<ErrorToken(>)>
+    	at edu.ucsb.cs56.pconrad.parsing.tokenizer.TokenizerAddonsTest.testGtExpression(TokenizerAddonsTest.java:119)    
+   ```
+
+   But, note that we are not really "expecting" an `<ErrorToken(stub)>` at all!  What we are expecting is
+   something like a `<GreaterThanToken>`, or a `<RelOpToken('<')>`, or something of this nature.   The
+   exact details of the concrete implementation are up to you&mdash;that's why we are using the Factory Design
+   Pattern.
+
+   In any case, clearly the first job is to replace all of these stubs in `DefaultTokenFactory.java` with actual
+   concrete methods that do the right thing.  That means you have to decide what classes you are going to implement
+   for the tokens for these operators:
+
+   * `<`, `<=`, `>`, `>=`, `==`, `!=` and `**`
+   
+
+   The code that forms the basis of what you'll be modifying is in the directory:
+
+   * `src/main/java/edu/ucsb/cs56/pconrad/parsing/tokenizer/`
+
+   Sample files you can use as examples include these: `PlusToken.java`, `MinusToken.java`, etc.
+
+   Once you've created those, you can replace the stub methods in `DefaultTokenFactory.java` with calls to
+   code to create the correct tokens.
+
+   Then, you should at least get sensible error messages such as:
+
+   ```
+   arrays first differed at element [1]; expected:<GTToken(>)> but was:<ErrorToken(>)>
+   junit.framework.AssertionFailedError: arrays first differed at element [1]; expected:<GTToken(>)> but was:<ErrorToken(>)>
+   	at edu.ucsb.cs56.pconrad.parsing.tokenizer.TokenizerAddonsTest.testGtExpression(TokenizerAddonsTest.java:119)     
+   ```
+
+   Then, it's time to fix the tokenizer so that it does the right thing.
+
+2. The next step involves designing a finite state automaton to parse the new tokens.
+
+   For the `**` token, you'll want a transition from the existing state for the `*` operator to another state for the `**`
+   operator.
+
+   In `src/main/java/edu/ucsb/cs56/pconrad/parsing/tokenizer/Tokenizer.java` we see that the state
+   that accepts the TimesToken() is state `4`, and we see that `7` is the last state that is currently
+   used.
+
+   ```java
+      fsa.addState(4, s -> new TimesToken() );
+   ```
+
+   So, we can create a new state 8:
+   
+   ```java
+      fsa.addState(8, s -> new ExponentToken() );
+   ```
+
+   And add a transition from state 4 to state 8 for input of `*` (the second `*`):
+   
+   ```
+     fsa.addTransition('*',4,8);
+   ```
+   ```
+
+   For the `<` and `<=` tokens, for example, you'll need:
+     * a transition from state `0` on input `<` to a new state where you'll return a `<` token if the valid input ends there,
+     * and a transition from *that* state to yet another state where you'll return a `<=` token if the valid input ends there.
+
+   Those two states might be numbered 9 and 10.   It's up to you what specific numbers
+   you assign to the states; it shouldn't matter as long as you tokenize everything correctly.
+
+   Continue in this way for the four other relational operators.
+   
+   
+
+## Parsing Steps:
+
+1. Replace the stubs in the DefaultASTFactory with actual nodes that implement something like
+   the +, *, -, and / operators.
+
+2. In Parser.java, you need to modify the various routines as needed to implement the changes
+   to the grammar.
+
+   For example, while the old start production was:
+
+   ```
+   expression ::= additive-expression
+   ```
+
+   Resulting in code:
+
+   ```
+    private ParseResult<AST> parseExpression(final int pos) throws ParserException {
+        return parseAdditiveExpression(pos);
+    }
+   ```
+
+   The new start production is:
+
+   ```plaintext
+   expression ::= comparision-expression
+   ```
+
+   Which means that code needs to change to:
+
+
+   ```java
+    private ParseResult<AST> parseExpression(final int pos) throws ParserException {
+        return parseComparisonExpression(pos);
+    }
+   ```
+
+   Of course, the trouble is, there is no such method `parseComparisonExpression` yet.
+
+   You have to write one.   You'll need to look at the other methods and how they correspond
+   to the grammar productions to figure out what that method should look like.
+
+   You'll also need to account for another change in the grammar.  The old production for
+   `multiplicative-expression` had `primary` on the right hand side:
+
+   ```plaintext
+   multiplicative-expression ::= primary ( ( '*' | '/' ) primary ) *
+   ```
+
+   And the code that went along with that looks like this:
+
+   ```java
+   private class ParseMultiplicative extends ParseAdditiveOrMultiplicative {
+        public ParseResult<AST> parseBase(final int pos) throws ParserException {
+            return parsePrimary(pos);
+        }
+        public ParseResult<Operator> parseOp(final int pos) throws ParserException {
+            return parseTimesDiv(pos);
+        }
+    }
+   ```
+
+   Now, instead of parsePrimary there, you'll need `parseExponentExpression`, another method
+   that doesn't exist yet.
+
+   The production for `exponent-expression` is recursive:
+
+   ```
+   exponent-expression ::= primary '**' exponent-expression | primary
+   ```
+
+   To implement a `parseExponentExpression` that corresponds to this production,
+   here's what you need to do.  You can use `parsePrimary` as your model.
+
+   * Call `parsePrimary`, and save the `ParseResult<AST>` that results as a variable of type `ParseResult<AST>` called `left`
+   * Then see if the next token is `**`.
+   * If it isn't, just return `left` as result of the function.
+   * If it is, then call parseExponentExpression recursively, and save the resulting `ParseResult<AST>`
+        as `right`.
+   * Finally, return a `ParseResult<AST>` for an exponent operator
+     that combines the left and right as the children.  The code for `ParseAdditiveOrMultiplicative.java` contains a hint on how to go about combining the left and right operands together with a binary operator, though that code is in a slightly different context, so you'll have to understand how to adapt it for your purposes.
+   
