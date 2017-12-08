@@ -827,4 +827,4 @@ To github.com:UCSB-CS56-F17/lab08_cgaucho_kdelplaya.git
    
 # Evaluator steps:
 
-Look in Evaluator.java.   The changes you need to make will be pretty obvious if you just read the code.  This is, honestly, the easiest part.  Just be sure to consider the special cases for the exponent operator.
+Look in Evaluator.java.   The changes you need to make will be pretty obvious if you just read the code.  This is, honestly, the easiest part.  Just be sure to consider the special cases for the exponent operator, and the fact that you need to represent true as 1, and false as 0 (unlike C/C++, Java might not automatically convert `boolean` to `int` without some hints from you, the programmer).
