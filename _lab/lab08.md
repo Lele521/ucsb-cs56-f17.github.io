@@ -4,7 +4,7 @@ num: lab08
 ready: true
 desc: "Recursive Descent Parsing"
 assigned: 2017-11-28 09:30:00.00-8
-due: 2017-12-08 17:00:00.00-8
+due: 2017-12-10 17:00:00.00-8
 
 parsing_starter_01: "https://github.com/UCSB-CS56-F17/parsing-starter-01"
 parsing_starter_02: "https://github.com/UCSB-CS56-F17/parsing-starter-02"
@@ -19,8 +19,8 @@ parsing_starter_04_git: "https://github.com/UCSB-CS56-F17/parsing-starter-04"
 parsing_starter_javadoc: "https://ucsb-cs56-f17.github.io/parsing-starter-javadoc/docs/apidocs/"
 
 tutorial_repo: "https://ucsb-cs56-pconrad.github.io/tutorials/parsing/"
-submit_cs_link: "https://submit.cs.ucsb.edu/form/project/TBD/submission"
-submit_cs_join_groups: "https://submit.cs.ucsb.edu/p/TBD/group"
+submit_cs_link: "https://submit.cs.ucsb.edu/form/project/914/submission"
+submit_cs_join_groups: "https://submit.cs.ucsb.edu/p/914/group"
 course_github_organization: UCSB-CS56-F17
 ---
 
