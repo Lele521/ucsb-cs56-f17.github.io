@@ -825,3 +825,6 @@ To github.com:UCSB-CS56-F17/lab08_cgaucho_kdelplaya.git
    * Finally, return a `ParseResult<AST>` for an exponent operator
      that combines the left and right as the children.  The code for `ParseAdditiveOrMultiplicative.java` contains a hint on how to go about combining the left and right operands together with a binary operator, though that code is in a slightly different context, so you'll have to understand how to adapt it for your purposes.
    
+# Evaluator steps:
+
+Look in Evaluator.java.   The changes you need to make will be pretty obvious if you just read the code.  This is, honestly, the easiest part.  Just be sure to consider the special cases for the exponent operator.
