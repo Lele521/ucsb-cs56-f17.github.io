@@ -1,0 +1,27 @@
+public class Test {
+
+	public static void main(String [] args) {
+
+		// The longest way
+		
+		private class Thing implements Edible {
+				public int getCalories() { return 200; }
+			};
+
+		Edible g = new Thing();
+
+		// SHORTER, if we are never, ever going to use "Thing" ever again
+		// It's "anonymous", because giving a single use thing a name is a waste of time.
+		
+		Edible f = new Edible() {
+				public int getCalories() { return 200; }
+			};
+		
+		// Even shorter.  Same thing, just more efficient syntax.
+		
+		Edible e  =  ()->200 ;
+
+		
+	}
+
+}

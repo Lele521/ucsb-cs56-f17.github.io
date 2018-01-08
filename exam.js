@@ -8,7 +8,21 @@ layout: null
 $(document).ready(function(){
     console.log("exam.js: document is ready");
 
+    $('.template').each(function(i) {
+	$(this).css('display','none');
+    });
 
+    // Use with  <div class="copy-of" data-id="foo"></div>
+    // Use   <div id="foo" class="template"></div> on the stuff you want to copy
+    // The class="template" will hide it the first time.
+    // The  class="copy-of" data-id="foo" signals that you want a copy of foo inserted here.
+    
+    $('.copy-of').each(function(i) {
+	var id = $(this).data('id')
+	$(this).html($(document.getElementById(id)).clone().html());
+    });
+
+    
     $('.page-break-before').each(function(i) {
 	var pageNum = i+1;
 	
