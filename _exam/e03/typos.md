@@ -14,7 +14,15 @@ http://ucsb-cs56-f17.github.io/exam/e03/typos/
 
 <b >Typo corrections and hints for {{site.qtr}} exam {{page.num}}</b>
 
-Enter them here.
+Will appear here, if any.
+
+## Notices
+
+* You may **Sit anywhere**, Except row D, and please leave one seat between students.
+* You may use **one sheet of notes** as usual.  Please write your name on it
+* **No talking** during the exam.  Please put all questions in writing on the blue sheet.
+* Please, for today **focus on the final exam only**.  If you have other questions, Conrad has office hours tomorrow, Wednesday 01/20/2018, 2pm-3pm in HFH1113.  Or, contact on Piazza to request an appointment.
+
 
 <div style="display:none;">
 http://ucsb-cs56-f17.github.io/exam/e03/typos/
