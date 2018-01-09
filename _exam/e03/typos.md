@@ -2,8 +2,8 @@
 layout: defaultWithClock
 num: e03
 desc: "Midterm Exam typos/corrections/clarifications"
-exam_date: 2016-12-06 12:00:00.00-8
-exam_end: "2016-12-06 15:00:00 -0800"
+exam_date: 2018-01-09 08:00:00.00-8
+exam_end: "2018-01-09 11:00:00 -0800"
 ---
 
 {% include exam_clock.html %}
